@@ -1,82 +1,70 @@
 (() => {
   // --- Portfolio Projects Database ---
   const projectsData = {
-    'fe-touch': {
-      title: 'FE Touch',
-      category: 'TABLET APP',
-      tagline: 'A modern teller workspace for everyday banking.',
-      description: 'A sleek, tablet-based app made for bank tellers — built with PT Collega Inti Pratama. FE Touch brings a fresh, modern interface to everyday banking tasks: something that feels fast, clean, and easy to use, even at the counter during rush hour.',
-      tech: ['Flutter', 'REST APIs', 'Tablet UI'],
+    'kgst-trust': {
+      title: 'KGST Trust Website',
+      category: 'MERN STACK',
+      tagline: 'Full stack MERN application with user authentication and MongoDB database.',
+      description: 'A comprehensive full-stack MERN application developed for a public charitable trust. Features custom secure registration, automated workflow approvals, schema validations, and MongoDB database storage, helping manage resources, donations, and trust member directories with robust API checks.',
+      tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'REST APIs'],
       accent: '#00F5C4',
       images: [
-        'assets/images/works/project1-1.png',
-        'assets/images/works/project1-2.png',
-        'assets/images/works/project1-3.png'
+        'assets/images/works/project1-1.png'
       ]
     },
-    'panic-button': {
-      title: 'Panic Button',
-      category: 'MOBILE APP',
-      tagline: 'Real-time SOS reporting for Damkar Banten.',
-      description: 'A simple yet essential SOS app built for Damkar Banten. Designed for quick, real-time emergency reporting and tracking, it helps firefighters receive, manage, and respond to incidents faster. Clean UI meets critical functionality — because in emergencies, every second (and every tap) counts.',
-      tech: ['Flutter', 'Real-time', 'Geo Tracking'],
-      accent: '#FF3B30',
-      images: [
-        'assets/images/works/project3-1.png',
-        'assets/images/works/project3-2.png',
-        'assets/images/works/project3-3.png'
-      ]
-    },
-    'digital-lending': {
-      title: 'Digital Lending',
-      category: 'MOBILE APP',
-      tagline: 'The lending process, fully online.',
-      description: 'A seamless loan application platform that brings the lending process fully online — from registration to approval. Built to simplify and speed up credit access for users, while giving banks a smarter way to manage risk and workflow. Digital Lending makes borrowing feel less like paperwork and more like progress.',
-      tech: ['Flutter', 'Fintech', 'REST APIs'],
+    'crisislink': {
+      title: 'CrisisLink',
+      category: 'NEXT.JS & N8N',
+      tagline: 'Crisis management platform with automated workflows.',
+      description: 'Developed during a hackathon, CrisisLink is a Next.js full-stack crisis management application designed to handle notifications and orchestration during critical incidents. Integrates n8n workflow triggers and alert verification services to quickly map active emergency nodes and update field teams.',
+      tech: ['Next.js', 'n8n automation', 'Node.js', 'Crisis Alerts'],
       accent: '#7B5CF0',
       images: [
-        'assets/images/works/project4-1.png',
-        'assets/images/works/project4-2.png',
-        'assets/images/works/project4-3.png'
+        'assets/images/works/project3-1.png'
       ]
     },
-    'core-x': {
-      title: 'Core X',
-      category: 'CORE BANKING',
-      tagline: 'The heart of banking operations, rebuilt.',
-      description: 'A modern core banking solution built to replace the aging Olibs 724 system. Designed to handle the heart of banking operations with a more scalable, efficient, and user-friendly approach, Core X brings a fresh layer of clarity and performance to complex processes — all while keeping the reliability banks depend on.',
-      tech: ['Flutter', 'Java', 'Banking Core'],
-      accent: '#00F5C4',
-      images: [
-        'assets/images/works/project2-1.png',
-        'assets/images/works/project2-2.png',
-        'assets/images/works/project2-3.png'
-      ]
-    },
-    'lelang-online': {
-      title: 'Lelang Online',
-      category: 'MOBILE APP',
-      tagline: 'Live auctions, on your screen.',
-      description: 'A digital platform that brings the excitement of live auctions to your screen. Built to simplify the bidding process, manage listings, and ensure a fair, transparent experience for all users. Whether you\'re buying or selling, Lelang Online makes auctions feel accessible, fast, and just a little more fun.',
-      tech: ['Flutter', 'Live Bidding', 'Marketplace'],
+    'open-source': {
+      title: 'Open Source Utilities',
+      category: 'DEVELOPER UTILS',
+      tagline: 'Custom shell scripts and code optimizations.',
+      description: 'A collection of developer utilities, automation shell scripts, and system optimizers. Features customized system backup scripts, automatic developer setup hooks, and codebase cleaners to optimize productivity and command line workflows.',
+      tech: ['Shell Scripting', 'Git Version Control', 'Code Optimization', 'Linux'],
       accent: '#FFB300',
       images: [
-        'assets/images/works/project5-1.png',
-        'assets/images/works/project5-2.png',
-        'assets/images/works/project5-3.png'
+        'assets/images/works/project4-1.png'
       ]
     },
-    'roast-pos': {
-      title: 'Roast POS',
-      category: 'POS PLATFORM',
-      tagline: 'Restaurant operations, end to end.',
-      description: 'An all-in-one restaurant operations app built to handle everything from POS transactions to inventory, stock tracking, staff presence, and real-time dashboards. Designed for smooth day-to-day operations — whether you\'re managing the floor, the kitchen, or the cash flow. Roast POS brings structure, clarity, and speed to the hustle of running a restaurant.',
-      tech: ['Flutter', 'POS', 'Dashboards'],
+    'devops-containers': {
+      title: 'DevOps Infrastructure',
+      category: 'DOCKER & SHELL',
+      tagline: 'Containerized architectures and setup configurations.',
+      description: 'A repository of Dockerfiles, compose setups, and system networking configurations. Simplifies application deployment by containerizing local backend API nodes, mounting persistent database volumes, and mapping secure gateways for scalable production setups.',
+      tech: ['Docker', 'Containers', 'Infrastructure', 'Docker Compose'],
+      accent: '#00F5C4',
+      images: [
+        'assets/images/works/project2-1.png'
+      ]
+    },
+    'academic-lab': {
+      title: 'Academic Lab Projects',
+      category: 'JAVA & PYTHON',
+      tagline: 'Object-oriented structures and algorithmic operations.',
+      description: 'A portfolio of college projects written during my Information Technology diploma program at Vidyalankar Polytechnic. Focuses on data structures, object-oriented concepts in Java and Python, basic socket networking systems, and algorithm exercises.',
+      tech: ['Java', 'Python', 'C++', 'Data Structures'],
+      accent: '#FF3B30',
+      images: [
+        'assets/images/works/project5-1.png'
+      ]
+    },
+    'company-website': {
+      title: 'Corporate Web Platform',
+      category: 'WEB PLATFORM',
+      tagline: "The official company website for 20sDeveloper's.",
+      description: "Official corporate website designed and built for 20sDeveloper's. Focuses on showcasing company services, team profiles, and case studies. Built using responsive frontend code coupled with lightweight backend API services to handle client communications securely.",
+      tech: ['Node.js', 'Express', 'Bootstrap', 'HTML5/CSS3'],
       accent: '#34C759',
       images: [
-        'assets/images/works/project6-1.png',
-        'assets/images/works/project6-2.png',
-        'assets/images/works/project6-3.png'
+        'assets/images/works/project6-1.png'
       ]
     }
   };
@@ -139,6 +127,8 @@
         document.body.classList.add('intro-done');
         // Start Hero canvas animations
         initHeroCanvas();
+        // Start Tower canvas animations
+        initTowerCanvas();
         // Start Statement canvas animations
         initStatementCanvas();
       }, 800);
@@ -286,6 +276,7 @@
   const menuSections = [
     document.getElementById('hero'),
     document.getElementById('about'),
+    document.getElementById('tech-tower'),
     document.getElementById('works'),
     document.getElementById('experience'),
     document.getElementById('statement'),
@@ -295,6 +286,10 @@
   let mobileMenuOpen = false;
   const hamburgerPath = "M4 6h16M4 12h16M4 18h16";
   const closePath = "M6 18L18 6M6 6l12 12";
+
+  let towerProgress = 0;
+  let angleY = 0;
+  const focalLength = 320;
 
   // Toggle mobile menu
   if (mobileMenuBtn && mobileMenuOverlay) {
@@ -431,6 +426,48 @@
     });
   });
 
+  const techTowerSec = document.getElementById('tech-tower');
+  const towerProgressText = document.getElementById('tower-progress-text');
+  const towerCards = document.querySelectorAll('.tower-card');
+
+  function updateTowerScroll() {
+    if (!techTowerSec) return;
+    const rect = techTowerSec.getBoundingClientRect();
+    const sectionHeight = rect.height;
+    const scrollMax = sectionHeight - window.innerHeight;
+    
+    let progress = 0;
+    if (rect.top <= 0) {
+      const scrolled = -rect.top;
+      progress = Math.max(0, Math.min(1, scrolled / scrollMax));
+    } else {
+      progress = 0;
+    }
+    
+    towerProgress = progress;
+    
+    if (towerProgressText) {
+      towerProgressText.textContent = `${Math.floor(progress * 100)}%`;
+    }
+    
+    const thresholds = [
+      { start: 0.05, end: 0.23 },
+      { start: 0.23, end: 0.43 },
+      { start: 0.43, end: 0.63 },
+      { start: 0.63, end: 0.83 },
+      { start: 0.83, end: 1.0 }
+    ];
+    
+    towerCards.forEach((card, index) => {
+      const t = thresholds[index];
+      if (t && progress >= t.start && progress <= t.end) {
+        card.classList.add('active');
+      } else {
+        card.classList.remove('active');
+      }
+    });
+  }
+
   window.addEventListener('scroll', () => {
     // Show/hide floating nav based on 80% viewport scroll
     if (floatingNav) {
@@ -443,9 +480,14 @@
       }
     }
     updateScrollState();
+    updateTowerScroll();
   });
-  window.addEventListener('resize', updateScrollState);
+  window.addEventListener('resize', () => {
+    updateScrollState();
+    updateTowerScroll();
+  });
   updateScrollState();
+  updateTowerScroll();
 
   // Magnetic buttons
   document.querySelectorAll('.magnetic').forEach(btn => {
@@ -461,45 +503,64 @@
   });
 
   // --- Hero Reveal Orbital Mask ---
+  const heroSec = document.getElementById('hero');
   const heroVisual = document.querySelector('.hero-visual');
   const aliveDot = document.getElementById('hero-alive-dot');
   
-  if (heroVisual) {
-    let heroRect = heroVisual.getBoundingClientRect();
+  if (heroVisual && heroSec) {
     let hover = false;
     const target = { x: 50, y: 50, radius: 120 };
     const actual = { x: 50, y: 50, radius: 110 };
     let orbitT = 0;
-    
-    function updateHeroRect() { heroRect = heroVisual.getBoundingClientRect(); }
-    updateHeroRect();
-    window.addEventListener('resize', updateHeroRect);
 
-    window.addEventListener('pointermove', (e) => {
-      if (!heroRect.width || !heroRect.height) return;
-      const inside = e.clientX >= heroRect.left && e.clientX <= heroRect.right && e.clientY >= heroRect.top && e.clientY <= heroRect.bottom;
-      hover = inside;
-      if (!inside) return;
-      const x = ((e.clientX - heroRect.left) / heroRect.width) * 100;
-      const y = ((e.clientY - heroRect.top) / heroRect.height) * 100;
-      target.x = Math.max(12, Math.min(88, x));
-      target.y = Math.max(18, Math.min(82, y));
-      target.radius = 130;
+    const handleMove = (clientX, clientY) => {
+      const rect = heroVisual.getBoundingClientRect();
+      if (!rect.width || !rect.height) return;
+      hover = true;
+      const x = ((clientX - rect.left) / rect.width) * 100;
+      const y = ((clientY - rect.top) / rect.height) * 100;
+      target.x = Math.max(-10, Math.min(110, x));
+      target.y = Math.max(-10, Math.min(110, y));
+      target.radius = 135;
+    };
+
+    heroSec.addEventListener('pointermove', (e) => {
+      if (e.pointerType === 'touch') return; // let touch events handle it
+      handleMove(e.clientX, e.clientY);
     });
 
-    heroVisual.addEventListener('pointerleave', () => { hover = false; });
+    heroSec.addEventListener('pointerenter', () => { hover = true; });
+    heroSec.addEventListener('pointerleave', () => { hover = false; });
+
+    // Touch events for mobile to support smooth dragging
+    heroSec.addEventListener('touchstart', (e) => {
+      hover = true;
+      if (e.touches.length > 0) {
+        handleMove(e.touches[0].clientX, e.touches[0].clientY);
+      }
+    }, { passive: true });
+
+    heroSec.addEventListener('touchmove', (e) => {
+      hover = true;
+      if (e.touches.length > 0) {
+        handleMove(e.touches[0].clientX, e.touches[0].clientY);
+      }
+    }, { passive: true });
+
+    heroSec.addEventListener('touchend', () => { hover = false; }, { passive: true });
+    heroSec.addEventListener('touchcancel', () => { hover = false; }, { passive: true });
 
     if (supportsHover) {
+      heroSec.style.cursor = 'none';
       heroVisual.style.cursor = 'none';
     }
 
     function heroOrbit() {
-      if (!heroRect.width || !heroRect.height) return;
       orbitT += 0.0025;
       const angle = orbitT * Math.PI * 2;
       
       // Lissajous autonomous orbit for reveal mask on idle or touch
-      if (!hover || !supportsHover) {
+      if (!hover) {
         target.x = 50 + Math.cos(angle) * 18;
         target.y = 42 + Math.sin(angle * 1.3) * 14;
         target.radius = 110 + Math.sin(angle * 1.7) * 10;
@@ -679,6 +740,532 @@
     loop();
   }
 
+  // --- Tech Stack Tower Section 3D Canvas Projection ---
+  let towerCanvasLoop;
+  function initTowerCanvas() {
+    const canvas = document.getElementById('tower-canvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    
+    let w = canvas.width = canvas.offsetWidth;
+    let h = canvas.height = canvas.offsetHeight;
+    
+    // Geometry values
+    const R_const = 82; // Constant radius for all floors (straight square column)
+    const MaxFloorHeight = 46; // Boxier, wider floors matching reference image
+    const NUM_FLOORS = 5;
+    
+    // Tech list for floating labels (plain names to map to custom icons)
+    const floorSkills = [
+      ["Git", "GitHub", "Docker", "Shell"],
+      ["C", "C++", "Java", "Python"],
+      ["HTML/CSS", "JS/TS", "React.js", "Tailwind"],
+      ["Node.js", "Express", "MongoDB", "REST API"],
+      ["JWT", "TOTP (2FA)", "Sessions", "Security"]
+    ];
+
+    // Load actual developer icons dynamically
+    const loadedIcons = {};
+    const skillIcons = {
+      "Git": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "GitHub": "https://img.icons8.com/ios-glyphs/30/ffffff/github.png",
+      "Docker": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+      "Shell": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
+      "C": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+      "C++": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+      "Java": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      "Python": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      "HTML/CSS": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "JS/TS": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "React.js": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "Tailwind": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+      "Node.js": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      "Express": "https://img.icons8.com/color/48/express-js.png",
+      "MongoDB": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      "REST API": "https://img.icons8.com/fluency/48/api.png",
+      "JWT": "https://img.icons8.com/color/48/json-web-token.png",
+      "TOTP (2FA)": "https://img.icons8.com/fluency/48/google-authenticator.png",
+      "Sessions": "https://img.icons8.com/fluency/48/cookie.png",
+      "Security": "https://img.icons8.com/fluency/48/shield.png"
+    };
+
+    // Preload icons in background
+    Object.entries(skillIcons).forEach(([name, url]) => {
+      const img = new Image();
+      img.src = url;
+      img.onload = () => {
+        loadedIcons[name] = img;
+      };
+    });
+
+    // Helper to draw rounded rectangle badges for labels
+    function drawRoundedRect(ctx, x, y, width, height, radius) {
+      ctx.beginPath();
+      ctx.moveTo(x + radius, y);
+      ctx.lineTo(x + width - radius, y);
+      ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+      ctx.lineTo(x + width, y + height - radius);
+      ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+      ctx.lineTo(x + radius, y + height);
+      ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+      ctx.lineTo(x, y + radius);
+      ctx.quadraticCurveTo(x, y, x + radius, y);
+      ctx.closePath();
+    }
+
+    // Particle class for blueprint accents
+    class BlueprintParticle {
+      constructor() {
+        this.reset();
+        this.y = Math.random() * 250;
+      }
+      reset() {
+        const angle = Math.random() * Math.PI * 2;
+        const rad = Math.random() * 80 + 10;
+        this.x = Math.cos(angle) * rad;
+        this.z = Math.sin(angle) * rad;
+        this.y = 0;
+        this.vy = Math.random() * 0.5 + 0.25;
+        this.opacity = Math.random() * 0.45 + 0.15;
+        this.radius = Math.random() * 1.3 + 0.4;
+      }
+      update(currentHeight) {
+        this.y += this.vy;
+        if (this.y > currentHeight + 20 || this.y > 300) {
+          this.reset();
+        }
+      }
+    }
+
+    const particles = [];
+    const maxParticles = 40;
+    for (let i = 0; i < maxParticles; i++) {
+      particles.push(new BlueprintParticle());
+    }
+
+    // Physics state variables for rotation and bounce
+    let baseSpeed = 0.003;
+    let rotVelocity = baseSpeed;
+    let lastScrollY = window.scrollY;
+
+    const renderedHeights = [0, 0, 0, 0, 0];
+    const heightVelocities = [0, 0, 0, 0, 0];
+
+    window.addEventListener('scroll', () => {
+      const currScroll = window.scrollY;
+      const diff = Math.abs(currScroll - lastScrollY);
+      lastScrollY = currScroll;
+      rotVelocity += diff * 0.00035;
+      rotVelocity = Math.min(rotVelocity, 0.035);
+    });
+    
+    // Dynamic responsive scales based on viewport width
+    let isMobile = w < 768;
+    let towerScale = w < 480 ? 2.8 : (w < 768 ? 3.1 : 3.6);
+    let verticalOffset = w < 480 ? 80 : (w < 768 ? 100 : 130);
+
+    window.addEventListener('resize', () => {
+      w = canvas.width = canvas.offsetWidth;
+      h = canvas.height = canvas.offsetHeight;
+      isMobile = w < 768;
+      towerScale = w < 480 ? 2.8 : (w < 768 ? 3.1 : 3.6);
+      verticalOffset = w < 480 ? 80 : (w < 768 ? 100 : 130);
+    });
+    
+    const angleX = 0.38;
+    
+    function project(x, y, z) {
+      const cosY = Math.cos(angleY);
+      const sinY = Math.sin(angleY);
+      const rx = x * cosY - z * sinY;
+      const rz = x * sinY + z * cosY;
+      
+      const cosX = Math.cos(angleX);
+      const sinX = Math.sin(angleX);
+      const ry = y * cosX - rz * sinX;
+      const rz2 = y * sinX + rz * cosX;
+      
+      const cameraZ = 380;
+      const scale = focalLength / (focalLength + rz2 + cameraZ);
+      
+      const sx = w / 2 + rx * scale * towerScale;
+      const sy = h / 2 - ry * scale * towerScale + verticalOffset; 
+      
+      return { x: sx, y: sy, scale: scale, depth: rz2 };
+    }
+    
+    function drawLine3D(x1, y1, z1, x2, y2, z2, color, width, dash = []) {
+      const p1 = project(x1, y1, z1);
+      const p2 = project(x2, y2, z2);
+      
+      ctx.beginPath();
+      ctx.strokeStyle = color;
+      ctx.lineWidth = width;
+      ctx.setLineDash(dash);
+      ctx.moveTo(p1.x, p1.y);
+      ctx.lineTo(p2.x, p2.y);
+      ctx.stroke();
+      ctx.setLineDash([]);
+    }
+
+    let towerCanvasVisible = true;
+    const towerObserver = new IntersectionObserver((entries) => {
+      towerCanvasVisible = entries[0].isIntersecting;
+    }, { threshold: 0.05 });
+    towerObserver.observe(canvas);
+    
+    function loop() {
+      if (towerCanvasVisible) {
+        ctx.clearRect(0, 0, w, h);
+        
+        angleY += rotVelocity;
+        rotVelocity = baseSpeed + (rotVelocity - baseSpeed) * 0.94;
+        
+        const targetHeights = [];
+        for (let i = 0; i < NUM_FLOORS; i++) {
+          const rangeStart = i * 0.2;
+          const rangeEnd = (i + 1) * 0.2;
+          let targetH = 0;
+          if (towerProgress > rangeStart) {
+            if (towerProgress >= rangeEnd) {
+              targetH = MaxFloorHeight;
+            } else {
+              const t = (towerProgress - rangeStart) / (rangeEnd - rangeStart);
+              targetH = t * MaxFloorHeight;
+            }
+          }
+          targetHeights.push(targetH);
+        }
+
+        const k = 0.13;
+        const d = 0.83;
+        for (let i = 0; i < NUM_FLOORS; i++) {
+          const force = (targetHeights[i] - renderedHeights[i]) * k;
+          heightVelocities[i] += force;
+          heightVelocities[i] *= d;
+          renderedHeights[i] += heightVelocities[i];
+        }
+
+        let cumulativeHeight = 0;
+        for (let i = 0; i < NUM_FLOORS; i++) {
+          cumulativeHeight += renderedHeights[i];
+        }
+        
+        // 1. Draw Base Grid (Amber/Bronze matching reference image)
+        for (let g = -140; g <= 140; g += 28) {
+          drawLine3D(-140, 0, g, 140, 0, g, 'rgba(255, 136, 34, 0.07)', 0.8);
+          drawLine3D(g, 0, -140, g, 0, 140, 'rgba(255, 136, 34, 0.07)', 0.8);
+        }
+        
+        // Draw base circle
+        const baseCirclePoints = 32;
+        ctx.beginPath();
+        ctx.strokeStyle = 'rgba(255, 136, 34, 0.12)';
+        ctx.lineWidth = 1;
+        ctx.setLineDash([4, 4]);
+        for (let i = 0; i <= baseCirclePoints; i++) {
+          const ang = (i / baseCirclePoints) * Math.PI * 2;
+          const pt = project(Math.cos(ang) * 110, 0, Math.sin(ang) * 110);
+          if (i === 0) ctx.moveTo(pt.x, pt.y);
+          else ctx.lineTo(pt.x, pt.y);
+        }
+        ctx.stroke();
+        ctx.setLineDash([]);
+        
+        // 2. Draw Particles (Amber)
+        particles.forEach(p => {
+          p.update(cumulativeHeight);
+          const pt = project(p.x, p.y, p.z);
+          ctx.beginPath();
+          ctx.fillStyle = '#ff8c00';
+          ctx.globalAlpha = p.opacity;
+          ctx.arc(pt.x, pt.y, p.radius * pt.scale, 0, Math.PI * 2);
+          ctx.fill();
+        });
+        ctx.globalAlpha = 1.0;
+        
+        // 3. Draw Floors (Faces, Frame, Windows in Amber theme)
+        let currentY = 0;
+        for (let i = 0; i < NUM_FLOORS; i++) {
+          const floorH = renderedHeights[i];
+          if (floorH <= 0.2) continue;
+          
+          const yBot = currentY;
+          const yTop = currentY + floorH;
+          currentY = yTop;
+          
+          const botR = R_const;
+          const topR = botR;
+          
+          const cBot = [
+            { x: -botR, z: -botR },
+            { x: botR, z: -botR },
+            { x: botR, z: botR },
+            { x: -botR, z: botR }
+          ];
+          const cTop = [
+            { x: -topR, z: -topR },
+            { x: topR, z: -topR },
+            { x: topR, z: topR },
+            { x: -topR, z: topR }
+          ];
+          
+          // Face depths calculation for Painter's Algorithm
+          const faceDepths = [];
+          for (let f = 0; f < 4; f++) {
+            const next = (f + 1) % 4;
+            const midX = (cBot[f].x + cBot[next].x) / 2;
+            const midZ = (cBot[f].z + cBot[next].z) / 2;
+            const midY = (yBot + yTop) / 2;
+            const proj = project(midX, midY, midZ);
+            faceDepths.push({ index: f, depth: proj.depth });
+          }
+          faceDepths.sort((a, b) => b.depth - a.depth);
+          
+          // Draw faces back to front
+          faceDepths.forEach(fd => {
+            const f = fd.index;
+            const next = (f + 1) % 4;
+            
+            const pBot1 = project(cBot[f].x, yBot, cBot[f].z);
+            const pBot2 = project(cBot[next].x, yBot, cBot[next].z);
+            const pTop2 = project(cTop[next].x, yTop, cTop[next].z);
+            const pTop1 = project(cTop[f].x, yTop, cTop[f].z);
+            
+            // Solid backing fill (opaque dark warm bronze/brown)
+            ctx.beginPath();
+            ctx.fillStyle = '#0a0604';
+            ctx.moveTo(pBot1.x, pBot1.y);
+            ctx.lineTo(pBot2.x, pBot2.y);
+            ctx.lineTo(pTop2.x, pTop2.y);
+            ctx.lineTo(pTop1.x, pTop1.y);
+            ctx.closePath();
+            ctx.fill();
+            
+            // Face shading
+            ctx.beginPath();
+            ctx.fillStyle = 'rgba(255, 136, 34, 0.015)';
+            ctx.moveTo(pBot1.x, pBot1.y);
+            ctx.lineTo(pBot2.x, pBot2.y);
+            ctx.lineTo(pTop2.x, pTop2.y);
+            ctx.lineTo(pTop1.x, pTop1.y);
+            ctx.closePath();
+            ctx.fill();
+            
+            // Face borders
+            ctx.beginPath();
+            ctx.strokeStyle = 'rgba(255, 136, 34, 0.55)';
+            ctx.lineWidth = 1.0;
+            ctx.moveTo(pBot1.x, pBot1.y);
+            ctx.lineTo(pBot2.x, pBot2.y);
+            ctx.lineTo(pTop2.x, pTop2.y);
+            ctx.lineTo(pTop1.x, pTop1.y);
+            ctx.closePath();
+            ctx.stroke();
+            
+            // Rectangular Windows grid (3 columns, 2 rows per floor)
+            const cols = 3;
+            const rows = 2;
+            for (let r = 0; r < rows; r++) {
+              for (let cCol = 0; cCol < cols; cCol++) {
+                const uStart = 0.12 + cCol * 0.28;
+                const uEnd = uStart + 0.20;
+                const vStart = 0.16 + r * 0.42;
+                const vEnd = vStart + 0.26;
+                
+                const wx1 = cBot[f].x + uStart * (cBot[next].x - cBot[f].x);
+                const wz1 = cBot[f].z + uStart * (cBot[next].z - cBot[f].z);
+                const wy1 = yBot + vStart * (yTop - yBot);
+                
+                const wx2 = cBot[f].x + uEnd * (cBot[next].x - cBot[f].x);
+                const wz2 = cBot[f].z + uEnd * (cBot[next].z - cBot[f].z);
+                const wy2 = yBot + vStart * (yTop - yBot);
+                
+                const wx3 = cBot[f].x + uEnd * (cBot[next].x - cBot[f].x);
+                const wz3 = cBot[f].z + uEnd * (cBot[next].z - cBot[f].z);
+                const wy3 = yBot + vEnd * (yTop - yBot);
+                
+                const wx4 = cBot[f].x + uStart * (cBot[next].x - cBot[f].x);
+                const wz4 = cBot[f].z + uStart * (cBot[next].z - cBot[f].z);
+                const wy4 = yBot + vEnd * (yTop - yBot);
+                
+                const pw1 = project(wx1, wy1, wz1);
+                const pw2 = project(wx2, wy2, wz2);
+                const pw3 = project(wx3, wy3, wz3);
+                const pw4 = project(wx4, wy4, wz4);
+                
+                ctx.beginPath();
+                ctx.fillStyle = 'rgba(255, 136, 34, 0.08)'; // Amber window glow
+                ctx.moveTo(pw1.x, pw1.y);
+                ctx.lineTo(pw2.x, pw2.y);
+                ctx.lineTo(pw3.x, pw3.y);
+                ctx.lineTo(pw4.x, pw4.y);
+                ctx.closePath();
+                ctx.fill();
+                
+                ctx.beginPath();
+                ctx.strokeStyle = 'rgba(255, 136, 34, 0.45)'; // Amber window frames
+                ctx.lineWidth = 0.8;
+                ctx.moveTo(pw1.x, pw1.y);
+                ctx.lineTo(pw2.x, pw2.y);
+                ctx.lineTo(pw3.x, pw3.y);
+                ctx.lineTo(pw4.x, pw4.y);
+                ctx.closePath();
+                ctx.stroke();
+              }
+            }
+          });
+        }
+        
+        // 4. Draw Antenna on Roof
+        const topFloorH = renderedHeights[4];
+        if (topFloorH > 0) {
+          const yRoof = cumulativeHeight;
+          const antennaMaxH = 26;
+          const antennaH = (topFloorH / MaxFloorHeight) * antennaMaxH;
+          
+          const pBase = project(0, yRoof, 0);
+          const pTip = project(0, yRoof + antennaH, 0);
+          
+          ctx.beginPath();
+          ctx.strokeStyle = 'rgba(255, 136, 34, 0.7)';
+          ctx.lineWidth = 1.4;
+          ctx.moveTo(pBase.x, pBase.y);
+          ctx.lineTo(pTip.x, pTip.y);
+          ctx.stroke();
+          
+          const barHeights = [8, 15, 21];
+          const barWidths = [14, 9, 5];
+          
+          barHeights.forEach((bh, idx) => {
+            if (antennaH >= bh) {
+              const bw = barWidths[idx];
+              drawLine3D(-bw / 2, yRoof + bh, 0, bw / 2, yRoof + bh, 0, 'rgba(255, 136, 34, 0.65)', 1.0);
+            }
+          });
+          
+          if (antennaH >= antennaMaxH - 1) {
+            ctx.beginPath();
+            ctx.fillStyle = '#ff8c00';
+            ctx.shadowBlur = 8;
+            ctx.shadowColor = '#ff8c00';
+            ctx.arc(pTip.x, pTip.y, 3.5, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.shadowBlur = 0;
+          }
+        }
+
+        // 5. Draw Floating Labels with Glass Badges and Developer Icons
+        currentY = 0;
+        for (let i = 0; i < NUM_FLOORS; i++) {
+          const floorH = renderedHeights[i];
+          if (floorH <= 0.2) continue;
+          
+          const yBot = currentY;
+          const yTop = currentY + floorH;
+          currentY = yTop;
+          
+          const labelOpacity = Math.max(0, Math.min(1, (floorH / MaxFloorHeight) * 2 - 1));
+          if (labelOpacity > 0) {
+            const skills = floorSkills[i];
+            const botR = R_const;
+            const topR = botR;
+            
+            const cTop = [
+              { x: -topR, z: -topR },
+              { x: topR, z: -topR },
+              { x: topR, z: topR },
+              { x: -topR, z: topR }
+            ];
+            
+            for (let c = 0; c < 4; c++) {
+              const skill = skills[c];
+              if (!skill) continue;
+              
+              const tx = cTop[c].x;
+              const tz = cTop[c].z;
+              
+              const dx = tx === 0 ? 0 : tx / Math.abs(tx);
+              const dz = tz === 0 ? 0 : tz / Math.abs(tz);
+              
+              const lx = tx + dx * 28;
+              const lz = tz + dz * 28;
+              const ly = yTop;
+              
+              const pCorner = project(tx, yTop, tz);
+              const pLabel = project(lx, ly, lz);
+              
+              ctx.beginPath();
+              ctx.strokeStyle = `rgba(255, 136, 34, ${0.4 * labelOpacity})`;
+              ctx.lineWidth = 0.8;
+              ctx.setLineDash([2, 2]);
+              ctx.moveTo(pCorner.x, pCorner.y);
+              ctx.lineTo(pLabel.x, pLabel.y);
+              ctx.stroke();
+              ctx.setLineDash([]);
+              
+              ctx.beginPath();
+              ctx.fillStyle = '#ff8c00';
+              ctx.globalAlpha = labelOpacity * 0.8;
+              ctx.arc(pCorner.x, pCorner.y, (isMobile ? 2 : 2.5) * pCorner.scale, 0, Math.PI * 2);
+              ctx.fill();
+              ctx.globalAlpha = 1.0;
+              
+              // Draw badge
+              const labelFontSize = isMobile ? 12 : 14;
+              const labelIconSize = isMobile ? 15 : 18;
+              const labelBadgeHeight = isMobile ? 24 : 28;
+
+              ctx.font = `500 ${labelFontSize}px "Outfit", "Inter", "Helvetica Neue", sans-serif`;
+              const textMetrics = ctx.measureText(skill);
+              const textWidth = textMetrics.width;
+              
+              const hasIcon = loadedIcons[skill] !== undefined;
+              const iconImg = loadedIcons[skill];
+              
+              let badgeWidth = textWidth + 16;
+              if (hasIcon) {
+                badgeWidth = textWidth + 8 + labelIconSize + 6 + 8;
+              }
+              
+              const bx = dx > 0 ? pLabel.x + 4 : pLabel.x - 4 - badgeWidth;
+              const by = pLabel.y - labelBadgeHeight / 2;
+              
+              // Draw badge background with glassmorphism glow
+              ctx.beginPath();
+              drawRoundedRect(ctx, bx, by, badgeWidth, labelBadgeHeight, 6);
+              ctx.fillStyle = 'rgba(12, 6, 4, 0.85)';
+              ctx.globalAlpha = labelOpacity;
+              ctx.fill();
+              
+              // Badge border
+              ctx.strokeStyle = `rgba(255, 136, 34, ${0.45 * labelOpacity})`;
+              ctx.lineWidth = 1;
+              ctx.stroke();
+              
+              // Draw icon if loaded
+              if (hasIcon) {
+                const iconY = by + (labelBadgeHeight - labelIconSize) / 2;
+                ctx.drawImage(iconImg, bx + 8, iconY, labelIconSize, labelIconSize);
+              }
+              
+              // Draw text
+              ctx.fillStyle = '#ffffff';
+              ctx.font = `500 ${labelFontSize}px "Outfit", "Inter", "Helvetica Neue", sans-serif`;
+              ctx.textAlign = 'left';
+              ctx.textBaseline = 'middle';
+              
+              const txOffset = hasIcon ? (8 + labelIconSize + 6) : 8;
+              ctx.fillText(skill, bx + txOffset, by + labelBadgeHeight / 2);
+              ctx.globalAlpha = 1.0;
+            }
+          }
+        }
+      }
+      towerCanvasLoop = requestAnimationFrame(loop);
+    }
+    loop();
+  }
   // --- About Section Fragment Collage Observer ---
   const fragPortrait = document.getElementById('fragment-portrait');
   if (fragPortrait) {
@@ -1262,7 +1849,7 @@
         // Direct email link fallback
         const subject = encodeURIComponent(`Portfolio Message from ${formName.value}`);
         const body = encodeURIComponent(formMessage.value);
-        window.location.href = `mailto:lraihan@hackermail.com?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:harshalgadre001@gmail.com?subject=${subject}&body=${body}`;
         
         // Clear inputs
         formName.value = '';
@@ -1272,7 +1859,7 @@
     });
   }
 
-  // --- Footer UTC+7 Jakarta clock ticks ---
+  // --- Footer UTC+5:30 Mumbai clock ticks ---
   const jakartaClock = document.getElementById('jakarta-clock');
   function updateJakartaClock() {
     if (!jakartaClock) return;
@@ -1281,14 +1868,14 @@
     // Get UTC milliseconds
     const utcTime = now.getTime() + now.getTimezoneOffset() * 60000;
     
-    // Convert to Jakarta time (UTC+7)
-    const jakartaTime = new Date(utcTime + (3600000 * 7));
+    // Convert to Mumbai time (UTC+5:30)
+    const mumbaiTime = new Date(utcTime + (3600000 * 5.5));
     
-    const h = String(jakartaTime.getHours()).padStart(2, '0');
-    const m = String(jakartaTime.getMinutes()).padStart(2, '0');
-    const s = String(jakartaTime.getSeconds()).padStart(2, '0');
+    const h = String(mumbaiTime.getHours()).padStart(2, '0');
+    const m = String(mumbaiTime.getMinutes()).padStart(2, '0');
+    const s = String(mumbaiTime.getSeconds()).padStart(2, '0');
     
-    jakartaClock.textContent = `JAKARTA UTC+7 — ${h}:${m}:${s}`;
+    jakartaClock.textContent = `MUMBAI UTC+5:30 — ${h}:${m}:${s}`;
   }
   setInterval(updateJakartaClock, 1000);
   updateJakartaClock();
