@@ -21,6 +21,7 @@
             muted: '#16162A',
             tealAccent: '#00F5C4',
             violetAccent: '#7B5CF0',
+            amberAccent: '#FF8C00',
             borderSubtle: '#252540',
             textPrimary: '#F0F0FF',
             textSecondary: '#9090B0',
@@ -41,7 +42,7 @@
     <div class="flex flex-col items-center space-y-6">
       <!-- Logo wipe container -->
       <div id="intro-logo-wrap" class="overflow-hidden w-0 h-[72px] flex items-center justify-start transition-all duration-[800ms] ease-out">
-        <img id="intro-logo" src="assets/images/logo.png" alt="Raihan" class="h-[72px] max-w-none filter brightness-0 invert" onerror="this.outerHTML='<span class=\'font-display text-[72px] font-bold leading-none text-textPrimary\'>R.</span>'" />
+        <img id="intro-logo" src="assets/images/logo.png" alt="Harshal" class="h-[72px] max-w-none filter brightness-0 invert" onerror="this.outerHTML='<span class=\'font-display text-[72px] font-bold leading-none text-textPrimary\'>H.</span>'" />
       </div>
       <!-- Progress Bar -->
       <div class="w-[160px] h-[1.5px] bg-borderSubtle relative">
@@ -62,12 +63,13 @@
     <div class="pointer-events-auto flex items-center justify-between w-full max-w-[880px] px-6 py-3 rounded-full border border-borderSubtle bg-[#ffffff0a] backdrop-blur-[20px] shadow-[0_10px_30px_rgba(8,8,16,0.5)]">
       <!-- Logo / Back to top -->
       <a href="#" class="cursor-pointer flex items-center justify-center transition-transform hover:scale-105 duration-300" id="nav-logo-link">
-        <img src="assets/images/logo.png" alt="R." class="h-[22px] filter brightness-0 invert" onerror="this.outerHTML='<span class=\'font-display text-lg font-bold text-tealAccent\'>R.</span>'" />
+        <img src="assets/images/logo.png" alt="H." class="h-[22px] filter brightness-0 invert" onerror="this.outerHTML='<span class=\'font-display text-lg font-bold text-tealAccent\'>H.</span>'" />
       </a>
       
       <!-- Links (Desktop) -->
       <div class="hidden md:flex items-center space-x-6 font-mono text-[13px] tracking-wider">
         <a href="#about" class="nav-link relative text-textSecondary hover:text-tealAccent transition-colors duration-300 py-1">ABOUT<span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-[1.5px] bg-tealAccent transition-all duration-300"></span></a>
+        <a href="#tech-tower" class="nav-link relative text-textSecondary hover:text-tealAccent transition-colors duration-300 py-1">TECH<span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-[1.5px] bg-tealAccent transition-all duration-300"></span></a>
         <a href="#works" class="nav-link relative text-textSecondary hover:text-tealAccent transition-colors duration-300 py-1">WORKS<span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-[1.5px] bg-tealAccent transition-all duration-300"></span></a>
         <a href="#experience" class="nav-link relative text-textSecondary hover:text-tealAccent transition-colors duration-300 py-1">EXPERIENCE<span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-[1.5px] bg-tealAccent transition-all duration-300"></span></a>
         <a href="#contact" class="nav-link relative text-textSecondary hover:text-tealAccent transition-colors duration-300 py-1">CONTACT<span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-[1.5px] bg-tealAccent transition-all duration-300"></span></a>
@@ -76,8 +78,8 @@
       <!-- Socials + Button (Desktop) -->
       <div class="hidden md:flex items-center space-x-4">
         <div class="w-[1px] h-[18px] bg-borderSubtle"></div>
-        <a href="https://github.com/lraihan" target="_blank" class="text-textSecondary hover:text-tealAccent transition-all hover:scale-110 duration-300"><svg class="w-[17px] h-[17px]" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a>
-        <a href="https://www.linkedin.com/in/raihan-fadli-dev/" target="_blank" class="text-textSecondary hover:text-tealAccent transition-all hover:scale-110 duration-300"><svg class="w-[17px] h-[17px]" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+        <a href="https://github.com/harshalgadre" target="_blank" class="text-textSecondary hover:text-tealAccent transition-all hover:scale-110 duration-300"><svg class="w-[17px] h-[17px]" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a>
+        <a href="https://linkedin.com/in/harshalgadre" target="_blank" class="text-textSecondary hover:text-tealAccent transition-all hover:scale-110 duration-300"><svg class="w-[17px] h-[17px]" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
         <a href="#contact" class="px-4 py-2 font-mono text-[12px] rounded-full border border-borderActive text-tealAccent bg-accentSubtle transition-all duration-300 hover:bg-tealAccent hover:text-bg-space hover:border-tealAccent" style="background-color: var(--accent-subtle);">SAY HELLO</a>
       </div>
 
@@ -97,37 +99,40 @@
       </div>
       <div class="menu-item opacity-0 transform translate-y-6 transition-all duration-500 flex items-start space-x-4">
         <span class="font-mono text-tealAccent text-sm mt-2">02</span>
-        <a href="#works" class="font-display text-4xl font-bold hover:text-tealAccent transition-colors">Works</a>
+        <a href="#tech-tower" class="font-display text-4xl font-bold hover:text-tealAccent transition-colors">Tech Stack</a>
       </div>
       <div class="menu-item opacity-0 transform translate-y-6 transition-all duration-500 flex items-start space-x-4">
         <span class="font-mono text-tealAccent text-sm mt-2">03</span>
-        <a href="#experience" class="font-display text-4xl font-bold hover:text-tealAccent transition-colors">Experience</a>
+        <a href="#works" class="font-display text-4xl font-bold hover:text-tealAccent transition-colors">Works</a>
       </div>
       <div class="menu-item opacity-0 transform translate-y-6 transition-all duration-500 flex items-start space-x-4">
         <span class="font-mono text-tealAccent text-sm mt-2">04</span>
+        <a href="#experience" class="font-display text-4xl font-bold hover:text-tealAccent transition-colors">Experience</a>
+      </div>
+      <div class="menu-item opacity-0 transform translate-y-6 transition-all duration-500 flex items-start space-x-4">
+        <span class="font-mono text-tealAccent text-sm mt-2">05</span>
         <a href="#contact" class="font-display text-4xl font-bold hover:text-tealAccent transition-colors">Contact</a>
       </div>
       
       <div class="menu-item opacity-0 transform translate-y-6 transition-all duration-500 pt-8 flex items-center space-x-6">
-        <a href="https://github.com/lraihan" target="_blank" class="font-mono text-[13px] text-tealAccent hover:underline tracking-widest">GITHUB</a>
-        <a href="https://www.linkedin.com/in/raihan-fadli-dev/" target="_blank" class="font-mono text-[13px] text-tealAccent hover:underline tracking-widest">LINKEDIN</a>
-        <a href="https://www.instagram.com/locio_raihan/" target="_blank" class="font-mono text-[13px] text-tealAccent hover:underline tracking-widest">INSTAGRAM</a>
+        <a href="https://github.com/harshalgadre" target="_blank" class="font-mono text-[13px] text-tealAccent hover:underline tracking-widest">GITHUB</a>
+        <a href="https://linkedin.com/in/harshalgadre" target="_blank" class="font-mono text-[13px] text-tealAccent hover:underline tracking-widest">LINKEDIN</a>
       </div>
     </div>
   </div>
 
-  <main id="hero" class="relative min-h-screen overflow-hidden px-6 py-10 sm:py-14 flex items-center">
+  <main id="hero" class="relative min-h-screen overflow-hidden px-6 py-28 md:py-14 flex flex-col md:flex-row md:items-center justify-between gap-8">
     <!-- Canvas for drift particles + shooting stars -->
     <canvas id="hero-canvas" class="absolute inset-0 w-full h-full pointer-events-none z-0 opacity-50"></canvas>
     
-    <div class="hero-visual absolute inset-0 overflow-hidden rounded-[2.5rem] shadow-[0_50px_140px_rgba(0,0,0,0.55)] z-0">
+    <div class="hero-visual absolute inset-0 overflow-hidden z-0">
       <div class="hero-bg absolute inset-0"></div>
       <div class="hero-fg absolute inset-0"></div>
-      <div class="hero-scrim absolute inset-0 bg-gradient-to-r from-[#03040b]/[0.94] via-[#03040b]/[0.5] to-transparent"></div>
+      <div class="hero-scrim absolute inset-0 bg-gradient-to-b md:bg-gradient-to-r from-[#03040b]/[0.95] via-[#03040b]/[0.6] to-transparent"></div>
     </div>
     
-    <div class="relative z-10 mx-auto w-full max-w-7xl">
-      <div class="hero-content w-full max-w-2xl space-y-8 py-12 lg:py-16">
+    <div class="relative z-10 mx-auto w-full max-w-7xl order-1 md:order-none">
+      <div class="hero-content w-full max-w-2xl space-y-8 py-4 md:py-16">
         <!-- Status badge -->
         <span class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-[10px] sm:text-xs uppercase tracking-[0.4em] text-slate-200 shadow-[0_0_0_1px_rgba(255,255,255,0.05)]">
           <span class="w-1.5 h-1.5 rounded-full bg-tealAccent animate-ping"></span>
@@ -136,11 +141,11 @@
         
         <!-- Staggered Title -->
         <h1 class="text-4xl sm:text-6xl md:text-7xl leading-[0.95] font-extrabold gradient-text tracking-tighter">
-          BUILDING THINGS<br>THAT FEEL<br><span id="hero-alive-word">ALIVE</span><span id="hero-alive-dot" class="text-tealAccent">.</span>
+          BUILDING SECURE<br>BACKEND ENGINES<br><span id="hero-alive-word">THAT SCALE</span><span id="hero-alive-dot" class="text-tealAccent">.</span>
         </h1>
         
         <p class="max-w-xl text-base sm:text-lg text-slate-300 leading-relaxed">
-          I design and build apps that do more than look good — they tell stories, evoke emotion, and feel alive.
+          I design and develop robust API architectures, secure authentication layers, and scalable full-stack software systems.
         </p>
         
         <div class="flex flex-wrap gap-4">
@@ -151,7 +156,7 @@
         <!-- Reveal hint -->
         <div class="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.2em] text-textSecondary" id="hero-reveal-hint">
           <span class="w-1.5 h-1.5 rounded-full bg-tealAccent"></span>
-          <span>hover the portrait</span>
+          <span>hover or drag the portrait</span>
         </div>
       </div>
     </div>
@@ -205,16 +210,12 @@
         <!-- Bio and Toolkit (Right) -->
         <div class="lg:col-span-3 space-y-12">
           <div class="space-y-6">
-            <h4 class="text-xl md:text-2xl font-bold text-textPrimary">Hi, I'm harshal gadre.</h4>
+            <h4 class="text-xl md:text-2xl font-bold text-textPrimary">Hi, I'm Harshal.</h4>
             <p class="text-textSecondary text-base md:text-lg leading-relaxed font-light">
-              Backend-focused Full Stack Developer with hands-on experience in building scalable web and
-mobile applications. Strong in REST API development, MongoDB database design, and secure
-authentication using JWT and TOTP. Experienced in integrating frontend applications and
-deploying backend services with Docker. Passionate about writing clean, optimized code and
-solving real-world problems..
+              Backend-focused Full Stack Developer. I build secure, high-performance web and mobile applications, combining robust API orchestration with smooth user interfaces.
             </p>
             <p class="text-textSecondary text-sm md:text-base leading-relaxed font-light">
-              For almost a decade, I have been building products people rely on every day — always with the conviction that software should feel alive.
+              I specialize in Node.js, Express, MongoDB, and secure authentication (JWT/TOTP). With hands-on experience in Docker, Flutter, and Next.js, I bridge the gap between complex backend architectures and modern frontend design.
             </p>
           </div>
           
@@ -222,93 +223,94 @@ solving real-world problems..
           <div class="space-y-6">
             <h5 class="font-mono text-xs text-tealAccent tracking-widest uppercase">TOOLKIT</h5>
             <div class="space-y-4">
-              <!-- Pillar 1: Flutter -->
+              <!-- Pillar 1: Backend Development -->
               <div class="toolkit-pillar border border-borderSubtle bg-card rounded-2xl p-6 relative overflow-hidden group transition-all duration-300 cursor-pointer" data-accent="#00F5C4">
                 <!-- Left Accent Edge -->
                 <div class="absolute left-0 top-0 bottom-0 w-[2px] bg-tealAccent/40 transition-all duration-300 pillar-edge"></div>
                 <!-- Watermark Background Icon -->
                 <div class="absolute right-[-16px] bottom-[-16px] text-tealAccent/5 group-hover:text-tealAccent/[0.12] transition-colors duration-300 pointer-events-none select-none">
-                  <svg class="w-24 h-24" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                  <svg class="w-24 h-24" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M4 17h16M4 12h16M4 7h16"></path></svg>
                 </div>
                 
                 <div class="flex gap-4 relative z-10">
                   <div class="w-12 h-12 rounded-xl bg-tealAccent/10 border border-tealAccent/30 flex items-center justify-center text-tealAccent transition-all duration-300 pillar-icon-box">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 17h16M4 12h16M4 7h16"></path></svg>
                   </div>
                   <div class="flex-1 space-y-3">
                     <div class="flex justify-between items-center">
-                      <h6 class="font-semibold text-textPrimary text-base">Flutter Engineering</h6>
+                      <h6 class="font-semibold text-textPrimary text-base">Backend Engineering</h6>
                       <span class="text-[9px] font-mono px-2 py-0.5 border border-tealAccent/40 text-tealAccent rounded-full uppercase tracking-wider">SPECIALIST</span>
                     </div>
                     <p class="text-textSecondary text-xs md:text-sm leading-relaxed font-light">
-                      Production Flutter with getx architecture and buttery smooth interfaces — custom-painted, pixel-exact, and built to scale.
+                      Scalable API development, database optimization, and high-performance server structures built with Node.js and MongoDB.
                     </p>
                     <div class="flex flex-wrap gap-2 pt-1">
-                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 18L22 12L16 6M8 6L2 12L8 18"></path></svg>Getx</span>
-                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>Firebase</span>
-                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 19l7-7 3 3-10 10-3-3zM19 9l-7-7-3 3 10 10 3-3z"></path></svg>Custom Painters</span>
-                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>Performance</span>
+                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 18L22 12L16 6M8 6L2 12L8 18"></path></svg>Node.js</span>
+                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>Express.js</span>
+                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 19l7-7 3 3-10 10-3-3zM19 9l-7-7-3 3 10 10 3-3z"></path></svg>MongoDB</span>
+                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>REST APIs</span>
                     </div>
                   </div>
                 </div>
               </div>
               
-              <!-- Pillar 2: Product Design -->
+              <!-- Pillar 2: Mobile Development -->
               <div class="toolkit-pillar border border-borderSubtle bg-card rounded-2xl p-6 relative overflow-hidden group transition-all duration-300 cursor-pointer" data-accent="#7B5CF0">
                 <!-- Left Accent Edge -->
                 <div class="absolute left-0 top-0 bottom-0 w-[2px] bg-violetAccent/40 transition-all duration-300 pillar-edge"></div>
                 <!-- Watermark Background Icon -->
                 <div class="absolute right-[-16px] bottom-[-16px] text-violetAccent/5 group-hover:text-violetAccent/[0.12] transition-colors duration-300 pointer-events-none select-none">
-                  <svg class="w-24 h-24" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                  <svg class="w-24 h-24" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
                 </div>
                 
                 <div class="flex gap-4 relative z-10">
                   <div class="w-12 h-12 rounded-xl bg-violetAccent/10 border border-violetAccent/30 flex items-center justify-center text-violetAccent transition-all duration-300 pillar-icon-box">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
                   </div>
                   <div class="flex-1 space-y-3">
                     <div class="flex justify-between items-center">
-                      <h6 class="font-semibold text-textPrimary text-base">Product Design</h6>
+                      <h6 class="font-semibold text-textPrimary text-base">Mobile Development</h6>
                       <span class="text-[9px] font-mono px-2 py-0.5 border border-violetAccent/40 text-violetAccent rounded-full uppercase tracking-wider">SPECIALIST</span>
                     </div>
                     <p class="text-textSecondary text-xs md:text-sm leading-relaxed font-light">
-                      Figma-first design systems, prototypes, and interfaces that feel inevitable — where structure meets the beauty.
+                      Cross-platform mobile applications crafted with Flutter, React Native, and Android (Java) for fluid and high-performing UIs.
                     </p>
                     <div class="flex flex-wrap gap-2 pt-1">
-                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>Figma</span>
-                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg>UI / UX</span>
-                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5"></path></svg>Design Systems</span>
-                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>Prototyping</span>
+                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>Flutter</span>
+                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg>React Native</span>
+                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5"></path></svg>Android (Java)</span>
+                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>Capacitor.js</span>
                     </div>
                   </div>
                 </div>
               </div>
               
-              <!-- Pillar 3: Motion & Craft -->
+              <!-- Pillar 3: Tools & DevOps -->
               <div class="toolkit-pillar border border-borderSubtle bg-card rounded-2xl p-6 relative overflow-hidden group transition-all duration-300 cursor-pointer" data-accent="#00F5C4">
                 <!-- Left Accent Edge -->
                 <div class="absolute left-0 top-0 bottom-0 w-[2px] bg-tealAccent/40 transition-all duration-300 pillar-edge"></div>
                 <!-- Watermark Background Icon -->
                 <div class="absolute right-[-16px] bottom-[-16px] text-tealAccent/5 group-hover:text-tealAccent/[0.12] transition-colors duration-300 pointer-events-none select-none">
-                  <svg class="w-24 h-24" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 3l1.912 5.886L20 9.8l-4.764 4.314L16.364 21 12 17.8 7.636 21l1.128-6.886L4 9.8l6.088-.914L12 3z"></path></svg>
+                  <svg class="w-24 h-24" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3zM9 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3z"></path></svg>
                 </div>
                 
                 <div class="flex gap-4 relative z-10">
                   <div class="w-12 h-12 rounded-xl bg-tealAccent/10 border border-tealAccent/30 flex items-center justify-center text-tealAccent transition-all duration-300 pillar-icon-box">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 3l1.912 5.886L20 9.8l-4.764 4.314L16.364 21 12 17.8 7.636 21l1.128-6.886L4 9.8l6.088-.914L12 3z"></path></svg>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
                   </div>
                   <div class="flex-1 space-y-3">
                     <div class="flex justify-between items-center">
-                      <h6 class="font-semibold text-textPrimary text-base">Motion & Craft</h6>
-                      <span class="text-[9px] font-mono px-2 py-0.5 border border-tealAccent/40 text-tealAccent rounded-full uppercase tracking-wider">SPECIALIST</span>
+                      <h6 class="font-semibold text-textPrimary text-base">Tools & DevOps</h6>
+                      <span class="text-[9px] font-mono px-2 py-0.5 border border-tealAccent/40 text-tealAccent rounded-full uppercase tracking-wider">SUPPORT</span>
                     </div>
                     <p class="text-textSecondary text-xs md:text-sm leading-relaxed font-light">
-                      Micro-interactions and motion design that make products feel alive — every easing curve and transition intentional.
+                      Containerizing workloads with Docker, shell script automation, environment debugging, and version control using Git.
                     </p>
                     <div class="flex flex-wrap gap-2 pt-1">
-                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m11.314 11.314l.707-.707M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path></svg>Animation</span>
-                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M9 9l-5-5"></path></svg>Micro-interactions</span>
-                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 2 12 22Z"></path><circle cx="12" cy="12" r="4"></circle></svg>Visual Design</span>
+                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M2 22h20M12 2v20"></path></svg>Git</span>
+                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg>Docker</span>
+                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>Shell</span>
+                      <span class="chip px-2.5 py-1 text-[10px] font-mono rounded bg-muted border border-borderSubtle text-textSecondary flex items-center gap-1.5"><svg class="w-3 h-3 text-textMuted chip-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3"></path></svg>Debugging</span>
                     </div>
                   </div>
                 </div>
@@ -321,7 +323,7 @@ solving real-world problems..
       <!-- Stats Strip (Bottom) -->
       <div class="border-t border-borderSubtle pt-12 mt-20 grid grid-cols-2 md:grid-cols-5 gap-8">
         <div class="space-y-1">
-          <div class="text-3xl md:text-4xl font-bold font-display text-tealAccent leading-none">5+</div>
+          <div class="text-3xl md:text-4xl font-bold font-display text-tealAccent leading-none">2+</div>
           <div class="text-[10px] font-mono uppercase tracking-widest text-textSecondary leading-tight">Years<br>Experience</div>
         </div>
         <div class="space-y-1">
@@ -330,15 +332,126 @@ solving real-world problems..
         </div>
         <div class="space-y-1">
           <div class="text-3xl md:text-4xl font-bold font-display text-tealAccent leading-none">Millions</div>
-          <div class="text-[10px] font-mono uppercase tracking-widest text-textSecondary leading-tight">of Lines<br>Written</div>
+          <div class="text-[10px] font-mono uppercase tracking-widest text-textSecondary leading-tight">of Requests<br>Served</div>
         </div>
         <div class="space-y-1">
           <div class="text-3xl md:text-4xl font-bold font-display text-tealAccent leading-none">Hundreds</div>
-          <div class="text-[10px] font-mono uppercase tracking-widest text-textSecondary leading-tight">of Screens<br>Designed</div>
+          <div class="text-[10px] font-mono uppercase tracking-widest text-textSecondary leading-tight">of APIs<br>Engineered</div>
         </div>
         <div class="space-y-1">
           <div class="text-3xl md:text-4xl font-bold font-display text-tealAccent leading-none">∞</div>
-          <div class="text-[10px] font-mono uppercase tracking-widest text-textSecondary leading-tight">Coffee<br>Consumed</div>
+          <div class="text-[10px] font-mono uppercase tracking-widest text-textSecondary leading-tight">Bugfixes<br>Deployed</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack Tower Section -->
+  <section id="tech-tower" class="relative h-[550vh] bg-[#050B18] overflow-visible">
+    <!-- Grid backgrounds -->
+    <div class="absolute inset-0 opacity-10 pointer-events-none" style="
+      background-image: linear-gradient(#FF8C0011 1px, transparent 1px), linear-gradient(90deg, #FF8C0011 1px, transparent 1px);
+      background-size: 40px 40px;
+    "></div>
+    <div class="absolute inset-0 opacity-20 pointer-events-none" style="
+      background-image: linear-gradient(#FF8C0008 1px, transparent 1px), linear-gradient(90deg, #FF8C0008 1px, transparent 1px);
+      background-size: 200px 200px;
+    "></div>
+
+    <div class="sticky top-0 h-screen w-full flex flex-col items-center justify-center overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-b from-[#080810] via-transparent to-[#080810] pointer-events-none"></div>
+
+      <!-- Centered Tower Canvas -->
+      <div class="absolute inset-0 z-0 flex items-center justify-center pointer-events-none">
+        <canvas id="tower-canvas" class="w-full h-full max-w-[800px] max-h-[800px]"></canvas>
+      </div>
+
+      <!-- Technical HUD overlay -->
+      <div class="absolute top-24 left-6 right-6 md:left-12 md:right-12 flex justify-between items-start z-10 pointer-events-none font-mono">
+        <div class="space-y-1">
+          <p class="text-[9px] md:text-[10px] font-black uppercase tracking-[0.5em] text-amberAccent">BLUEPRINT_OVERLAY_ACTIVE</p>
+          <h4 class="text-[11px] md:text-[12px] font-bold uppercase text-textSecondary">TELEMETRY_SCAN::CORE_LINK</h4>
+        </div>
+        <div class="text-right">
+          <h4 id="tower-progress-text" class="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none text-textPrimary">0%</h4>
+          <p class="text-[9px] md:text-[10px] font-black uppercase tracking-widest mt-1 text-textSecondary">BUILD_STABILITY_INDEX</p>
+        </div>
+      </div>
+
+      <!-- Floor Overlay Cards -->
+      <div class="absolute inset-0 pointer-events-none flex items-center justify-center z-10">
+        <!-- Floor 0: Foundation -->
+        <div class="tower-card absolute max-w-[280px] md:max-w-[320px] p-5 border-l-2 border-amberAccent bg-space/90 backdrop-blur-md rounded-r-xl transition-all duration-700 opacity-0 translate-y-12 pointer-events-none shadow-2xl" data-floor="0" style="left: 5%; md:left: 10%;">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="font-mono text-xs text-amberAccent">LVL_00</span>
+            <h3 class="text-lg md:text-xl font-bold uppercase tracking-tight text-textPrimary">FOUNDATION</h3>
+          </div>
+          <p class="text-xs text-textSecondary mb-3">Core environment, version control, container engines, and script automation.</p>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">Git</span>
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">GitHub</span>
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">Docker</span>
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">Shell</span>
+          </div>
+        </div>
+
+        <!-- Floor 1: OOP Languages -->
+        <div class="tower-card absolute max-w-[280px] md:max-w-[320px] p-5 border-r-2 border-amberAccent bg-space/90 backdrop-blur-md rounded-l-xl transition-all duration-700 opacity-0 translate-y-12 pointer-events-none shadow-2xl" data-floor="1" style="right: 5%; md:right: 10%;">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="font-mono text-xs text-amberAccent">LVL_01</span>
+            <h3 class="text-lg md:text-xl font-bold uppercase tracking-tight text-textPrimary">OOP LANGUAGES</h3>
+          </div>
+          <p class="text-xs text-textSecondary mb-3">Object-oriented languages for robust system structures and algorithms.</p>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">C</span>
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">C++</span>
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">Java</span>
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">Python</span>
+          </div>
+        </div>
+
+        <!-- Floor 2: Web Frontend -->
+        <div class="tower-card absolute max-w-[280px] md:max-w-[320px] p-5 border-l-2 border-amberAccent bg-space/90 backdrop-blur-md rounded-r-xl transition-all duration-700 opacity-0 translate-y-12 pointer-events-none shadow-2xl" data-floor="2" style="left: 5%; md:left: 10%;">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="font-mono text-xs text-amberAccent">LVL_02</span>
+            <h3 class="text-lg md:text-xl font-bold uppercase tracking-tight text-textPrimary">WEB FRONTEND</h3>
+          </div>
+          <p class="text-xs text-textSecondary mb-3">Client-side languages and UI frameworks for building responsive interfaces.</p>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">HTML / CSS</span>
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">JS / TS</span>
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">React.js</span>
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">Tailwind</span>
+          </div>
+        </div>
+
+        <!-- Floor 3: Backend & Database -->
+        <div class="tower-card absolute max-w-[280px] md:max-w-[320px] p-5 border-r-2 border-amberAccent bg-space/90 backdrop-blur-md rounded-l-xl transition-all duration-700 opacity-0 translate-y-12 pointer-events-none shadow-2xl" data-floor="3" style="right: 5%; md:right: 10%;">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="font-mono text-xs text-amberAccent">LVL_03</span>
+            <h3 class="text-lg md:text-xl font-bold uppercase tracking-tight text-textPrimary">BACKEND ENGINE</h3>
+          </div>
+          <p class="text-xs text-textSecondary mb-3">API development servers and schemas for structured document databases.</p>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">Node.js</span>
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">Express.js</span>
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">MongoDB</span>
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">REST API</span>
+          </div>
+        </div>
+
+        <!-- Floor 4: Auth & Security -->
+        <div class="tower-card absolute max-w-[280px] md:max-w-[320px] p-5 border-l-2 border-amberAccent bg-space/90 backdrop-blur-md rounded-r-xl transition-all duration-700 opacity-0 translate-y-12 pointer-events-none shadow-2xl" data-floor="4" style="left: 5%; md:left: 10%;">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="font-mono text-xs text-amberAccent">LVL_04</span>
+            <h3 class="text-lg md:text-xl font-bold uppercase tracking-tight text-textPrimary">AUTH & SECURITY</h3>
+          </div>
+          <p class="text-xs text-textSecondary mb-3">Cryptographic verification, session management, and authentication strategies.</p>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">JWT</span>
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">TOTP (2FA)</span>
+            <span class="px-2 py-0.5 text-[9px] font-mono rounded bg-card border border-borderSubtle text-amberAccent">Sessions</span>
+          </div>
         </div>
       </div>
     </div>
@@ -359,111 +472,111 @@ solving real-world problems..
 
       <!-- Bento Grid (3-column layout on desktop) -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10" id="bento-grid">
-        <!-- Project 1: FE Touch (Featured, row spans 2) -->
-        <div class="project-card md:col-span-2 relative overflow-hidden rounded-[2rem] border border-borderSubtle bg-card cursor-pointer group flex flex-col justify-between transition-all duration-300" data-id="fe-touch" data-accent="#00F5C4">
+        <!-- Project 1: KGST Trust Website (Featured, row spans 2) -->
+        <div class="project-card md:col-span-2 relative overflow-hidden rounded-[2rem] border border-borderSubtle bg-card cursor-pointer group flex flex-col justify-between transition-all duration-300" data-id="kgst-trust" data-accent="#00F5C4">
           <div class="specular-glow absolute inset-0 pointer-events-none opacity-0 transition-opacity duration-300"></div>
           <div class="absolute left-0 top-0 bottom-0 w-[2px] bg-tealAccent/40 transition-all duration-300 card-edge"></div>
           
           <div class="overflow-hidden aspect-[16/9] w-full bg-ink relative">
-            <img src="assets/images/works/project1-1.png" alt="FE Touch" class="w-full h-full object-cover project-img transition-transform duration-700 group-hover:scale-102" />
+            <img src="assets/images/works/project1-1.png" alt="KGST Trust" class="w-full h-full object-cover project-img transition-transform duration-700 group-hover:scale-102" />
           </div>
           <div class="p-8 space-y-3 relative z-10 bg-card">
             <div class="flex justify-between items-center">
-              <span class="text-[9px] font-mono text-tealAccent tracking-widest uppercase">TABLET APP</span>
+              <span class="text-[9px] font-mono text-tealAccent tracking-widest uppercase">MERN STACK</span>
               <span class="text-[10px] font-mono text-textMuted group-hover:text-tealAccent transition-colors duration-300 flex items-center gap-1">VIEW PROJECT <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></span>
             </div>
-            <h4 class="text-2xl font-bold text-textPrimary font-display">FE Touch</h4>
-            <p class="text-textSecondary text-sm font-light">A modern teller workspace for everyday banking.</p>
+            <h4 class="text-2xl font-bold text-textPrimary font-display">KGST Trust</h4>
+            <p class="text-textSecondary text-sm font-light">Full-stack trust community site with secure MERN infrastructure.</p>
           </div>
         </div>
 
-        <!-- Project 2: Panic Button (Standard) -->
-        <div class="project-card md:col-span-1 relative overflow-hidden rounded-[2rem] border border-borderSubtle bg-card cursor-pointer group flex flex-col justify-between transition-all duration-300" data-id="panic-button" data-accent="#FF3B30">
-          <div class="specular-glow absolute inset-0 pointer-events-none opacity-0 transition-opacity duration-300"></div>
-          <div class="absolute left-0 top-0 bottom-0 w-[2px] bg-[#FF3B30]/40 transition-all duration-300 card-edge"></div>
-          
-          <div class="overflow-hidden aspect-[4/5] md:aspect-auto md:flex-1 w-full bg-ink relative">
-            <img src="assets/images/works/project3-1.png" alt="Panic Button" class="w-full h-full object-cover project-img transition-transform duration-700 group-hover:scale-102" />
-          </div>
-          <div class="p-8 space-y-3 relative z-10 bg-card">
-            <div class="flex justify-between items-center">
-              <span class="text-[9px] font-mono text-[#FF3B30] tracking-widest uppercase">MOBILE APP</span>
-              <span class="text-[10px] font-mono text-textMuted group-hover:text-[#FF3B30] transition-colors duration-300 flex items-center gap-1">VIEW PROJECT <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></span>
-            </div>
-            <h4 class="text-2xl font-bold text-textPrimary font-display">Panic Button</h4>
-            <p class="text-textSecondary text-sm font-light">Real-time SOS reporting for Damkar Banten.</p>
-          </div>
-        </div>
-
-        <!-- Project 3: Digital Lending (Standard) -->
-        <div class="project-card md:col-span-1 relative overflow-hidden rounded-[2rem] border border-borderSubtle bg-card cursor-pointer group flex flex-col justify-between transition-all duration-300" data-id="digital-lending" data-accent="#7B5CF0">
+        <!-- Project 2: CrisisLink (Standard) -->
+        <div class="project-card md:col-span-1 relative overflow-hidden rounded-[2rem] border border-borderSubtle bg-card cursor-pointer group flex flex-col justify-between transition-all duration-300" data-id="crisislink" data-accent="#7B5CF0">
           <div class="specular-glow absolute inset-0 pointer-events-none opacity-0 transition-opacity duration-300"></div>
           <div class="absolute left-0 top-0 bottom-0 w-[2px] bg-violetAccent/40 transition-all duration-300 card-edge"></div>
           
           <div class="overflow-hidden aspect-[4/5] md:aspect-auto md:flex-1 w-full bg-ink relative">
-            <img src="assets/images/works/project4-1.png" alt="Digital Lending" class="w-full h-full object-cover project-img transition-transform duration-700 group-hover:scale-102" />
+            <img src="assets/images/works/project3-1.png" alt="CrisisLink" class="w-full h-full object-cover project-img transition-transform duration-700 group-hover:scale-102" />
           </div>
           <div class="p-8 space-y-3 relative z-10 bg-card">
             <div class="flex justify-between items-center">
-              <span class="text-[9px] font-mono text-violetAccent tracking-widest uppercase">MOBILE APP</span>
+              <span class="text-[9px] font-mono text-violetAccent tracking-widest uppercase">NEXT.JS & N8N</span>
               <span class="text-[10px] font-mono text-textMuted group-hover:text-violetAccent transition-colors duration-300 flex items-center gap-1">VIEW PROJECT <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></span>
             </div>
-            <h4 class="text-2xl font-bold text-textPrimary font-display">Digital Lending</h4>
-            <p class="text-textSecondary text-sm font-light">The lending process, fully online.</p>
+            <h4 class="text-2xl font-bold text-textPrimary font-display">CrisisLink</h4>
+            <p class="text-textSecondary text-sm font-light">Crisis management system with automated alert flows.</p>
           </div>
         </div>
 
-        <!-- Project 4: Core X (Featured, row spans 2) -->
-        <div class="project-card md:col-span-2 relative overflow-hidden rounded-[2rem] border border-borderSubtle bg-card cursor-pointer group flex flex-col justify-between transition-all duration-300" data-id="core-x" data-accent="#00F5C4">
-          <div class="specular-glow absolute inset-0 pointer-events-none opacity-0 transition-opacity duration-300"></div>
-          <div class="absolute left-0 top-0 bottom-0 w-[2px] bg-tealAccent/40 transition-all duration-300 card-edge"></div>
-          
-          <div class="overflow-hidden aspect-[16/9] w-full bg-ink relative">
-            <img src="assets/images/works/project2-1.png" alt="Core X" class="w-full h-full object-cover project-img transition-transform duration-700 group-hover:scale-102" />
-          </div>
-          <div class="p-8 space-y-3 relative z-10 bg-card">
-            <div class="flex justify-between items-center">
-              <span class="text-[9px] font-mono text-tealAccent tracking-widest uppercase">CORE BANKING</span>
-              <span class="text-[10px] font-mono text-textMuted group-hover:text-tealAccent transition-colors duration-300 flex items-center gap-1">VIEW PROJECT <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></span>
-            </div>
-            <h4 class="text-2xl font-bold text-textPrimary font-display">Core X</h4>
-            <p class="text-textSecondary text-sm font-light">The heart of banking operations, rebuilt.</p>
-          </div>
-        </div>
-
-        <!-- Project 5: Lelang Online (Standard) -->
-        <div class="project-card md:col-span-1 relative overflow-hidden rounded-[2rem] border border-borderSubtle bg-card cursor-pointer group flex flex-col justify-between transition-all duration-300" data-id="lelang-online" data-accent="#FFB300">
+        <!-- Project 3: Open Source Repos (Standard) -->
+        <div class="project-card md:col-span-1 relative overflow-hidden rounded-[2rem] border border-borderSubtle bg-card cursor-pointer group flex flex-col justify-between transition-all duration-300" data-id="open-source" data-accent="#FFB300">
           <div class="specular-glow absolute inset-0 pointer-events-none opacity-0 transition-opacity duration-300"></div>
           <div class="absolute left-0 top-0 bottom-0 w-[2px] bg-[#FFB300]/40 transition-all duration-300 card-edge"></div>
           
           <div class="overflow-hidden aspect-[4/5] md:aspect-auto md:flex-1 w-full bg-ink relative">
-            <img src="assets/images/works/project5-1.png" alt="Lelang Online" class="w-full h-full object-cover project-img transition-transform duration-700 group-hover:scale-102" />
+            <img src="assets/images/works/project4-1.png" alt="Open Source" class="w-full h-full object-cover project-img transition-transform duration-700 group-hover:scale-102" />
           </div>
           <div class="p-8 space-y-3 relative z-10 bg-card">
             <div class="flex justify-between items-center">
-              <span class="text-[9px] font-mono text-[#FFB300] tracking-widest uppercase">MOBILE APP</span>
+              <span class="text-[9px] font-mono text-[#FFB300] tracking-widest uppercase">DEVELOPER UTILS</span>
               <span class="text-[10px] font-mono text-textMuted group-hover:text-[#FFB300] transition-colors duration-300 flex items-center gap-1">VIEW PROJECT <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></span>
             </div>
-            <h4 class="text-2xl font-bold text-textPrimary font-display">Lelang Online</h4>
-            <p class="text-textSecondary text-sm font-light">Live auctions, on your screen.</p>
+            <h4 class="text-2xl font-bold text-textPrimary font-display">Open Source</h4>
+            <p class="text-textSecondary text-sm font-light">Custom scripts, system configs, and developer automations.</p>
           </div>
         </div>
 
-        <!-- Project 6: Roast POS (Standard) -->
-        <div class="project-card md:col-span-1 relative overflow-hidden rounded-[2rem] border border-borderSubtle bg-card cursor-pointer group flex flex-col justify-between transition-all duration-300" data-id="roast-pos" data-accent="#34C759">
+        <!-- Project 4: DevOps & Containers (Featured, row spans 2) -->
+        <div class="project-card md:col-span-2 relative overflow-hidden rounded-[2rem] border border-borderSubtle bg-card cursor-pointer group flex flex-col justify-between transition-all duration-300" data-id="devops-containers" data-accent="#00F5C4">
+          <div class="specular-glow absolute inset-0 pointer-events-none opacity-0 transition-opacity duration-300"></div>
+          <div class="absolute left-0 top-0 bottom-0 w-[2px] bg-tealAccent/40 transition-all duration-300 card-edge"></div>
+          
+          <div class="overflow-hidden aspect-[16/9] w-full bg-ink relative">
+            <img src="assets/images/works/project2-1.png" alt="DevOps" class="w-full h-full object-cover project-img transition-transform duration-700 group-hover:scale-102" />
+          </div>
+          <div class="p-8 space-y-3 relative z-10 bg-card">
+            <div class="flex justify-between items-center">
+              <span class="text-[9px] font-mono text-tealAccent tracking-widest uppercase">DOCKER & SHELL</span>
+              <span class="text-[10px] font-mono text-textMuted group-hover:text-tealAccent transition-colors duration-300 flex items-center gap-1">VIEW PROJECT <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></span>
+            </div>
+            <h4 class="text-2xl font-bold text-textPrimary font-display">DevOps Infrastructure</h4>
+            <p class="text-textSecondary text-sm font-light">Containerized environments and server configuration templates.</p>
+          </div>
+        </div>
+
+        <!-- Project 5: Academic Lab (Standard) -->
+        <div class="project-card md:col-span-1 relative overflow-hidden rounded-[2rem] border border-borderSubtle bg-card cursor-pointer group flex flex-col justify-between transition-all duration-300" data-id="academic-lab" data-accent="#FF3B30">
+          <div class="specular-glow absolute inset-0 pointer-events-none opacity-0 transition-opacity duration-300"></div>
+          <div class="absolute left-0 top-0 bottom-0 w-[2px] bg-[#FF3B30]/40 transition-all duration-300 card-edge"></div>
+          
+          <div class="overflow-hidden aspect-[4/5] md:aspect-auto md:flex-1 w-full bg-ink relative">
+            <img src="assets/images/works/project5-1.png" alt="Academic Lab" class="w-full h-full object-cover project-img transition-transform duration-700 group-hover:scale-102" />
+          </div>
+          <div class="p-8 space-y-3 relative z-10 bg-card">
+            <div class="flex justify-between items-center">
+              <span class="text-[9px] font-mono text-[#FF3B30] tracking-widest uppercase">JAVA & PYTHON</span>
+              <span class="text-[10px] font-mono text-textMuted group-hover:text-[#FF3B30] transition-colors duration-300 flex items-center gap-1">VIEW PROJECT <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></span>
+            </div>
+            <h4 class="text-2xl font-bold text-textPrimary font-display">Academic Lab</h4>
+            <p class="text-textSecondary text-sm font-light">Data structures, OOP algorithms, and college system scripts.</p>
+          </div>
+        </div>
+
+        <!-- Project 6: Corporate Website (Standard) -->
+        <div class="project-card md:col-span-1 relative overflow-hidden rounded-[2rem] border border-borderSubtle bg-card cursor-pointer group flex flex-col justify-between transition-all duration-300" data-id="company-website" data-accent="#34C759">
           <div class="specular-glow absolute inset-0 pointer-events-none opacity-0 transition-opacity duration-300"></div>
           <div class="absolute left-0 top-0 bottom-0 w-[2px] bg-[#34C759]/40 transition-all duration-300 card-edge"></div>
           
           <div class="overflow-hidden aspect-[4/5] md:aspect-auto md:flex-1 w-full bg-ink relative">
-            <img src="assets/images/works/project6-1.png" alt="Roast POS" class="w-full h-full object-cover project-img transition-transform duration-700 group-hover:scale-102" />
+            <img src="assets/images/works/project6-1.png" alt="Corporate Website" class="w-full h-full object-cover project-img transition-transform duration-700 group-hover:scale-102" />
           </div>
           <div class="p-8 space-y-3 relative z-10 bg-card">
             <div class="flex justify-between items-center">
-              <span class="text-[9px] font-mono text-[#34C759] tracking-widest uppercase">POS PLATFORM</span>
+              <span class="text-[9px] font-mono text-[#34C759] tracking-widest uppercase">WEB PLATFORM</span>
               <span class="text-[10px] font-mono text-textMuted group-hover:text-[#34C759] transition-colors duration-300 flex items-center gap-1">VIEW PROJECT <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></span>
             </div>
-            <h4 class="text-2xl font-bold text-textPrimary font-display">Roast POS</h4>
-            <p class="text-textSecondary text-sm font-light">Restaurant operations, end to end.</p>
+            <h4 class="text-2xl font-bold text-textPrimary font-display">Corporate Site</h4>
+            <p class="text-textSecondary text-sm font-light">Official web platform developed for 20sDeveloper's.</p>
           </div>
         </div>
 
@@ -489,7 +602,7 @@ solving real-world problems..
     <div class="max-w-6xl mx-auto px-6">
       <div class="mb-16 flex flex-col gap-4 md:flex-row md:items-end justify-between">
         <div>
-          <h2 class="text-xs font-mono text-tealAccent uppercase tracking-widest">03 / EXPERIENCE</h2>
+          <h2 class="text-xs font-mono text-tealAccent uppercase tracking-widest">04 / EXPERIENCE</h2>
           <h3 class="text-3xl md:text-5xl font-bold font-display mt-2 text-textPrimary tracking-tight">Work History</h3>
         </div>
         <div class="text-xs font-mono text-textSecondary tracking-wider max-w-sm">
@@ -504,10 +617,10 @@ solving real-world problems..
         <!-- Active Draw Line (JS will fill this on scroll) -->
         <div id="timeline-line-fill" class="absolute left-[23px] md:left-[111px] top-6 w-[1.5px] bg-tealAccent origin-top scale-y-0 transition-transform duration-75 z-0" style="height: calc(100% - 12px);"></div>
         
-        <!-- Timeline Item 1: Intern Mobile Developer -->
+        <!-- Timeline Item 1: Backend Developer and Flutter Developer -->
         <div class="timeline-tile relative group z-10 flex flex-col md:flex-row" data-index="0">
           <!-- Year label (Desktop) -->
-          <div class="absolute left-[-112px] top-1 text-tealAccent/60 font-mono text-sm hidden md:block w-20 text-right opacity-0 transition-opacity duration-500 timeline-year">2019</div>
+          <div class="absolute left-[-112px] top-1 text-tealAccent/60 font-mono text-sm hidden md:block w-20 text-right opacity-0 transition-opacity duration-500 timeline-year">2025</div>
           <!-- Lit Dot -->
           <div class="absolute left-[16px] md:left-[91px] top-1.5 w-3.5 h-3.5 rounded-full bg-space border-[1.5px] border-textMuted transition-all duration-300 z-10 timeline-dot"></div>
           
@@ -515,30 +628,34 @@ solving real-world problems..
             <!-- Card -->
             <div class="timeline-card border border-borderSubtle bg-card rounded-2xl p-6 relative overflow-hidden group cursor-pointer transition-all duration-300">
               <div class="flex justify-between items-start mb-2">
-                <span class="font-mono text-tealAccent text-[11px] tracking-wider">2019 — 2020</span>
+                <span class="font-mono text-tealAccent text-[11px] tracking-wider">2025 — 2026</span>
                 <!-- Plus icon rotate -->
                 <svg class="w-4 h-4 text-textMuted group-hover:text-tealAccent transform transition-transform duration-300 timeline-plus" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
               </div>
-              <h4 class="text-lg font-bold text-textPrimary font-display">Intern Mobile Developer <span class="text-textSecondary font-light">· Lontar Lab.</span></h4>
-              <p class="text-xs text-textMuted mt-1">Bandung, Indonesia</p>
+              <h4 class="text-lg font-bold text-textPrimary font-display">Backend & Flutter Developer <span class="text-textSecondary font-light">· 20sDeveloper’s</span></h4>
+              <p class="text-xs text-textMuted mt-1">Mumbai, India</p>
               
               <!-- Expandable description container -->
               <div class="timeline-desc max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
                 <p class="text-textSecondary text-sm leading-relaxed mt-4 font-light">
-                  Where the journey began — building my first real mobile screens and falling for the craft of making interfaces feel right.
+                  Built secure backend architectures, database schemas, and mobile solutions to support official platforms.
                 </p>
                 <ul class="mt-4 space-y-2 text-xs md:text-sm text-textSecondary font-light">
                   <li class="flex items-start gap-2">
                     <span class="w-1.5 h-1.5 rounded-full bg-tealAccent mt-2 shrink-0"></span>
-                    <span>Shipped first production Flutter UI</span>
+                    <span>Developed backend APIs using Node.js and MongoDB</span>
                   </li>
                   <li class="flex items-start gap-2">
                     <span class="w-1.5 h-1.5 rounded-full bg-tealAccent mt-2 shrink-0"></span>
-                    <span>Learned mobile & layout fundamentals hands-on</span>
+                    <span>Designed database schemas and CRUD operations</span>
                   </li>
                   <li class="flex items-start gap-2">
                     <span class="w-1.5 h-1.5 rounded-full bg-tealAccent mt-2 shrink-0"></span>
-                    <span>Discovered a love for motion and detail</span>
+                    <span>Implemented secure authentication using JWT and TOTP</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span class="w-1.5 h-1.5 rounded-full bg-tealAccent mt-2 shrink-0"></span>
+                    <span>Developed the official company website and integrated frontend services</span>
                   </li>
                 </ul>
               </div>
@@ -546,50 +663,8 @@ solving real-world problems..
           </div>
         </div>
 
-        <!-- Timeline Item 2: Software Engineer -->
+        <!-- Timeline Item 2: Diploma in Information Technology -->
         <div class="timeline-tile relative group z-10 flex flex-col md:flex-row" data-index="1">
-          <!-- Year label (Desktop) -->
-          <div class="absolute left-[-112px] top-1 text-tealAccent/60 font-mono text-sm hidden md:block w-20 text-right opacity-0 transition-opacity duration-500 timeline-year">2020</div>
-          <!-- Lit Dot -->
-          <div class="absolute left-[16px] md:left-[91px] top-1.5 w-3.5 h-3.5 rounded-full bg-space border-[1.5px] border-textMuted transition-all duration-300 z-10 timeline-dot"></div>
-          
-          <div class="pl-10 md:pl-8 flex-1">
-            <!-- Card -->
-            <div class="timeline-card border border-borderSubtle bg-card rounded-2xl p-6 relative overflow-hidden group cursor-pointer transition-all duration-300">
-              <div class="flex justify-between items-start mb-2">
-                <span class="font-mono text-tealAccent text-[11px] tracking-wider">2020 — 2022</span>
-                <!-- Plus icon rotate -->
-                <svg class="w-4 h-4 text-textMuted group-hover:text-tealAccent transform transition-transform duration-300 timeline-plus" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
-              </div>
-              <h4 class="text-lg font-bold text-textPrimary font-display">Software Engineer <span class="text-textSecondary font-light">· PT Collega Inti Pratama</span></h4>
-              <p class="text-xs text-textMuted mt-1">Jakarta, Indonesia</p>
-              
-              <!-- Expandable description container -->
-              <div class="timeline-desc max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
-                <p class="text-textSecondary text-sm leading-relaxed mt-4 font-light">
-                  Worked across the banking stack and learned how robust products are really built — the foundation my visual work now stands on.
-                </p>
-                <ul class="mt-4 space-y-2 text-xs md:text-sm text-textSecondary font-light">
-                  <li class="flex items-start gap-2">
-                    <span class="w-1.5 h-1.5 rounded-full bg-tealAccent mt-2 shrink-0"></span>
-                    <span>Maintained the Olibs 724 core-banking system</span>
-                  </li>
-                  <li class="flex items-start gap-2">
-                    <span class="w-1.5 h-1.5 rounded-full bg-tealAccent mt-2 shrink-0"></span>
-                    <span>Bridged backend logic to client-facing teams</span>
-                  </li>
-                  <li class="flex items-start gap-2">
-                    <span class="w-1.5 h-1.5 rounded-full bg-tealAccent mt-2 shrink-0"></span>
-                    <span>Grew the engineering rigor behind clean UI</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Timeline Item 3: Flutter & Visual Engineer -->
-        <div class="timeline-tile relative group z-10 flex flex-col md:flex-row" data-index="2">
           <!-- Year label (Desktop) -->
           <div class="absolute left-[-112px] top-1 text-tealAccent/60 font-mono text-sm hidden md:block w-20 text-right opacity-0 transition-opacity duration-500 timeline-year">2022</div>
           <!-- Lit Dot -->
@@ -599,30 +674,68 @@ solving real-world problems..
             <!-- Card -->
             <div class="timeline-card border border-borderSubtle bg-card rounded-2xl p-6 relative overflow-hidden group cursor-pointer transition-all duration-300">
               <div class="flex justify-between items-start mb-2">
-                <span class="font-mono text-tealAccent text-[11px] tracking-wider">2022 — Present</span>
+                <span class="font-mono text-tealAccent text-[11px] tracking-wider">2022 — 2025</span>
                 <!-- Plus icon rotate -->
                 <svg class="w-4 h-4 text-textMuted group-hover:text-tealAccent transform transition-transform duration-300 timeline-plus" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
               </div>
-              <h4 class="text-lg font-bold text-textPrimary font-display">Flutter & Visual Engineer <span class="text-textSecondary font-light">· PT Collega Inti Pratama</span></h4>
-              <p class="text-xs text-textMuted mt-1">Jakarta, Indonesia</p>
+              <h4 class="text-lg font-bold text-textPrimary font-display">Diploma in Information Technology <span class="text-textSecondary font-light">· Vidyalankar Polytechnic</span></h4>
+              <p class="text-xs text-textMuted mt-1">Wadala, Mumbai</p>
               
               <!-- Expandable description container -->
               <div class="timeline-desc max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
                 <p class="text-textSecondary text-sm leading-relaxed mt-4 font-light">
-                  Own the visual layer end to end — translating Figma into design-system-driven, animated Flutter interfaces that feel alive.
+                  Acquired solid software engineering foundations, relational database configurations, and object-oriented principles.
                 </p>
                 <ul class="mt-4 space-y-2 text-xs md:text-sm text-textSecondary font-light">
                   <li class="flex items-start gap-2">
                     <span class="w-1.5 h-1.5 rounded-full bg-tealAccent mt-2 shrink-0"></span>
-                    <span>Lead Flutter UI for banking products</span>
+                    <span>Focused on software development, web frameworks, and database normalization</span>
                   </li>
                   <li class="flex items-start gap-2">
                     <span class="w-1.5 h-1.5 rounded-full bg-tealAccent mt-2 shrink-0"></span>
-                    <span>Build design systems & motion from Figma to ship</span>
+                    <span>Programmed algorithm labs in C, C++, Java, and Python</span>
                   </li>
                   <li class="flex items-start gap-2">
                     <span class="w-1.5 h-1.5 rounded-full bg-tealAccent mt-2 shrink-0"></span>
-                    <span>Craft micro-interactions and high-performance visuals</span>
+                    <span>Built database automation scripts and normalized relational tables</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 3: 10th Grade -->
+        <div class="timeline-tile relative group z-10 flex flex-col md:flex-row" data-index="2">
+          <!-- Year label (Desktop) -->
+          <div class="absolute left-[-112px] top-1 text-tealAccent/60 font-mono text-sm hidden md:block w-20 text-right opacity-0 transition-opacity duration-500 timeline-year">2009</div>
+          <!-- Lit Dot -->
+          <div class="absolute left-[16px] md:left-[91px] top-1.5 w-3.5 h-3.5 rounded-full bg-space border-[1.5px] border-textMuted transition-all duration-300 z-10 timeline-dot"></div>
+          
+          <div class="pl-10 md:pl-8 flex-1">
+            <!-- Card -->
+            <div class="timeline-card border border-borderSubtle bg-card rounded-2xl p-6 relative overflow-hidden group cursor-pointer transition-all duration-300">
+              <div class="flex justify-between items-start mb-2">
+                <span class="font-mono text-tealAccent text-[11px] tracking-wider">2009 — 2019</span>
+                <!-- Plus icon rotate -->
+                <svg class="w-4 h-4 text-textMuted group-hover:text-tealAccent transform transition-transform duration-300 timeline-plus" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+              </div>
+              <h4 class="text-lg font-bold text-textPrimary font-display">Secondary School (10th) <span class="text-textSecondary font-light">· A. B. Goregaonkar English School</span></h4>
+              <p class="text-xs text-textMuted mt-1">Mumbai, India</p>
+              
+              <!-- Expandable description container -->
+              <div class="timeline-desc max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                <p class="text-textSecondary text-sm leading-relaxed mt-4 font-light">
+                  Early academic foundations in science, mathematics, computer literacy, and algorithms.
+                </p>
+                <ul class="mt-4 space-y-2 text-xs md:text-sm text-textSecondary font-light">
+                  <li class="flex items-start gap-2">
+                    <span class="w-1.5 h-1.5 rounded-full bg-tealAccent mt-2 shrink-0"></span>
+                    <span>Completed Secondary School Certificate (SSC) with high grades</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span class="w-1.5 h-1.5 rounded-full bg-tealAccent mt-2 shrink-0"></span>
+                    <span>Sparked early interest in logic design and programming systems</span>
                   </li>
                 </ul>
               </div>
@@ -647,31 +760,31 @@ solving real-world problems..
     
     <!-- Verse text lines -->
     <div class="relative z-10 max-w-4xl mx-auto w-full px-6 flex flex-col justify-between items-center text-center space-y-12" id="statement-verse">
-      <!-- Line 1: (A promise,) -->
+      <!-- Line 1: (A request,) -->
       <div class="w-full text-left md:pl-[10%]">
-        <h4 class="font-display font-extrabold text-3xl sm:text-5xl md:text-6xl text-textPrimary tracking-tight select-text statement-line leading-none" data-line-index="0">(A promise,)</h4>
+        <h4 class="font-display font-extrabold text-3xl sm:text-5xl md:text-6xl text-textPrimary tracking-tight select-text statement-line leading-none" data-line-index="0">(A request,)</h4>
       </div>
       
-      <!-- Line 2: made of pixels, -->
+      <!-- Line 2: processed in Node, -->
       <div class="w-full text-right md:pr-[5%]">
-        <h4 class="font-display font-extrabold text-5xl sm:text-7xl md:text-8xl gradient-text tracking-tighter select-text statement-line leading-none" data-line-index="1" style="background-image: linear-gradient(to right, var(--accent-primary), var(--accent-secondary)); text-shadow: 0 0 20px rgba(0, 245, 196, 0.3);">made of pixels,</h4>
+        <h4 class="font-display font-extrabold text-5xl sm:text-7xl md:text-8xl gradient-text tracking-tighter select-text statement-line leading-none" data-line-index="1" style="background-image: linear-gradient(to right, var(--accent-primary), var(--accent-secondary)); text-shadow: 0 0 20px rgba(0, 245, 196, 0.3);">processed in Node,</h4>
       </div>
       
-      <!-- Line 3: blossoms in -->
+      <!-- Line 3: scales in -->
       <div class="w-full text-left md:pl-[20%]">
-        <h4 class="font-display font-extrabold text-4xl sm:text-6xl md:text-7xl text-textPrimary tracking-tight select-text statement-line leading-none" data-line-index="2">blossoms in</h4>
+        <h4 class="font-display font-extrabold text-4xl sm:text-6xl md:text-7xl text-textPrimary tracking-tight select-text statement-line leading-none" data-line-index="2">scales in</h4>
       </div>
       
-      <!-- Line 4: the dart. -->
+      <!-- Line 4: the cloud. -->
       <div class="w-full text-center">
-        <h4 class="font-display font-extrabold text-6xl sm:text-8xl md:text-9xl text-textPrimary tracking-tighter select-text statement-line leading-none" data-line-index="3">the dart.</h4>
+        <h4 class="font-display font-extrabold text-6xl sm:text-8xl md:text-9xl text-textPrimary tracking-tighter select-text statement-line leading-none" data-line-index="3">the cloud.</h4>
       </div>
     </div>
     
-    <!-- Written in Dart Closing Mark -->
+    <!-- Written in Closing Mark -->
     <div class="absolute bottom-8 left-0 right-0 flex items-center justify-center space-x-4 pointer-events-none z-10">
       <div class="w-7 h-[1.5px] bg-borderActive"></div>
-      <span class="font-mono text-[10px] text-textSecondary tracking-[0.3em] font-semibold">WRITTEN IN DART</span>
+      <span class="font-mono text-[10px] text-textSecondary tracking-[0.3em] font-semibold">BUILT FOR SCALABILITY</span>
       <div class="w-7 h-[1.5px] bg-borderActive"></div>
     </div>
   </section>
@@ -687,11 +800,11 @@ solving real-world problems..
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
           <!-- Left side description -->
           <div class="lg:col-span-2 space-y-6">
-            <h2 class="text-xs font-mono text-tealAccent uppercase tracking-widest">04 / CONTACT</h2>
+            <h2 class="text-xs font-mono text-tealAccent uppercase tracking-widest">06 / CONTACT</h2>
             <h3 class="text-3xl md:text-4xl font-bold font-display text-textPrimary tracking-tight">Let's Build Something</h3>
             
             <p class="text-textSecondary text-sm md:text-base leading-relaxed font-light pt-2">
-              Currently available for freelance and full-time roles.
+              Currently available for backend and full-stack engineering roles.
             </p>
             <p class="text-textSecondary text-xs md:text-sm leading-relaxed font-light">
               Have a project in mind, or just want to say hi? Send a note and I will get back to you — I read every message.
@@ -700,11 +813,11 @@ solving real-world problems..
             <div class="space-y-4 pt-6 border-t border-borderSubtle/50">
               <div>
                 <p class="text-[9px] font-mono text-textMuted uppercase tracking-widest">OR reach me directly</p>
-                <a href="mailto:lraihan@hackermail.com" class="text-sm font-mono text-tealAccent hover:underline block mt-1 tracking-wider">lraihan@hackermail.com</a>
+                <a href="mailto:harshalgadre001@gmail.com" class="text-sm font-mono text-tealAccent hover:underline block mt-1 tracking-wider">harshalgadre001@gmail.com</a>
               </div>
               <div>
                 <p class="text-[9px] font-mono text-textMuted uppercase tracking-widest">Location</p>
-                <p class="text-sm font-semibold text-textPrimary mt-1">Jakarta, Indonesia</p>
+                <p class="text-sm font-semibold text-textPrimary mt-1">Mumbai, India</p>
               </div>
             </div>
           </div>
@@ -756,20 +869,19 @@ solving real-world problems..
       <!-- Live clock -->
       <div class="flex items-center gap-2 tracking-wider" id="jakarta-clock-wrap">
         <span class="w-1.5 h-1.5 rounded-full bg-tealAccent animate-pulse"></span>
-        <span id="jakarta-clock">JAKARTA UTC+7 — --:--:--</span>
+        <span id="jakarta-clock">MUMBAI UTC+5:30 — --:--:--</span>
       </div>
       
       <!-- Tagline & copyright -->
       <div class="text-center md:text-left space-y-1">
-        <p class="text-textSecondary">© 2026 Raihan · My logic blossoms into experience.</p>
-        <p class="text-textMuted text-[10px]">Built with Flutter (Web Static Copy)</p>
+        <p class="text-textSecondary">© 2026 Harshal Gadre · Scaling logic into experience.</p>
+        <p class="text-textMuted text-[10px]">Built with Vanilla CSS & Next (Web Static)</p>
       </div>
       
       <!-- Socials links -->
       <div class="flex items-center gap-4 tracking-widest">
-        <a href="https://github.com/lraihan" target="_blank" class="hover:text-tealAccent transition-colors">GITHUB</a>
-        <a href="https://www.linkedin.com/in/raihan-fadli-dev/" target="_blank" class="hover:text-tealAccent transition-colors">LINKEDIN</a>
-        <a href="https://www.instagram.com/locio_raihan/" target="_blank" class="hover:text-tealAccent transition-colors">INSTAGRAM</a>
+        <a href="https://github.com/harshalgadre" target="_blank" class="hover:text-tealAccent transition-colors">GITHUB</a>
+        <a href="https://linkedin.com/in/harshalgadre" target="_blank" class="hover:text-tealAccent transition-colors">LINKEDIN</a>
       </div>
     </div>
   </footer>
@@ -807,23 +919,28 @@ solving real-world problems..
         <div class="absolute right-8 px-2 py-1 bg-card border border-borderSubtle text-[10px] font-mono text-textPrimary rounded opacity-0 translate-x-2 pointer-events-none transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 tracking-wider">ABOUT</div>
         <div class="rail-dot w-2 h-2 rounded-full border border-textMuted bg-space transition-all duration-300 shadow-none"></div>
       </div>
-      <!-- Dot 2: Works -->
+      <!-- Dot 2: Tech Tower -->
       <div class="rail-dot-wrap group relative w-8 h-8 flex items-center justify-center cursor-pointer pointer-events-auto" data-index="2">
+        <div class="absolute right-8 px-2 py-1 bg-card border border-borderSubtle text-[10px] font-mono text-textPrimary rounded opacity-0 translate-x-2 pointer-events-none transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 tracking-wider">TOWER</div>
+        <div class="rail-dot w-2 h-2 rounded-full border border-textMuted bg-space transition-all duration-300 shadow-none"></div>
+      </div>
+      <!-- Dot 3: Works -->
+      <div class="rail-dot-wrap group relative w-8 h-8 flex items-center justify-center cursor-pointer pointer-events-auto" data-index="3">
         <div class="absolute right-8 px-2 py-1 bg-card border border-borderSubtle text-[10px] font-mono text-textPrimary rounded opacity-0 translate-x-2 pointer-events-none transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 tracking-wider">WORKS</div>
         <div class="rail-dot w-2 h-2 rounded-full border border-textMuted bg-space transition-all duration-300 shadow-none"></div>
       </div>
-      <!-- Dot 3: Experience -->
-      <div class="rail-dot-wrap group relative w-8 h-8 flex items-center justify-center cursor-pointer pointer-events-auto" data-index="3">
+      <!-- Dot 4: Experience -->
+      <div class="rail-dot-wrap group relative w-8 h-8 flex items-center justify-center cursor-pointer pointer-events-auto" data-index="4">
         <div class="absolute right-8 px-2 py-1 bg-card border border-borderSubtle text-[10px] font-mono text-textPrimary rounded opacity-0 translate-x-2 pointer-events-none transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 tracking-wider">EXPERIENCE</div>
         <div class="rail-dot w-2 h-2 rounded-full border border-textMuted bg-space transition-all duration-300 shadow-none"></div>
       </div>
-      <!-- Dot 4: Statement -->
-      <div class="rail-dot-wrap group relative w-8 h-8 flex items-center justify-center cursor-pointer pointer-events-auto" data-index="4">
+      <!-- Dot 5: Statement -->
+      <div class="rail-dot-wrap group relative w-8 h-8 flex items-center justify-center cursor-pointer pointer-events-auto" data-index="5">
         <div class="absolute right-8 px-2 py-1 bg-card border border-borderSubtle text-[10px] font-mono text-textPrimary rounded opacity-0 translate-x-2 pointer-events-none transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 tracking-wider">STATEMENT</div>
         <div class="rail-dot w-2 h-2 rounded-full border border-textMuted bg-space transition-all duration-300 shadow-none"></div>
       </div>
-      <!-- Dot 5: Contact -->
-      <div class="rail-dot-wrap group relative w-8 h-8 flex items-center justify-center cursor-pointer pointer-events-auto" data-index="5">
+      <!-- Dot 6: Contact -->
+      <div class="rail-dot-wrap group relative w-8 h-8 flex items-center justify-center cursor-pointer pointer-events-auto" data-index="6">
         <div class="absolute right-8 px-2 py-1 bg-card border border-borderSubtle text-[10px] font-mono text-textPrimary rounded opacity-0 translate-x-2 pointer-events-none transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 tracking-wider">CONTACT</div>
         <div class="rail-dot w-2 h-2 rounded-full border border-textMuted bg-space transition-all duration-300 shadow-none"></div>
       </div>
